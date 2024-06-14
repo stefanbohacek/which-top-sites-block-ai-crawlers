@@ -54,6 +54,7 @@
         }
       },
       tooltip: {
+        confine: true,
         formatter: (obj) => {
           const total = data[0].data[0] + data[1].data[0];
           const value = obj.seriesIndex === 0 ? obj.value : total - obj.value;
