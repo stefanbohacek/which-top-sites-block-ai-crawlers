@@ -1,0 +1,20 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+User-agent: *
+Disallow: /user/confirm_premium_navi
+Allow: /
+
+User-agent: Baiduspider
+Allow: /cn
+Disallow: /*?_pxhc=*
+Disallow: /cn/users
+Disallow: /
+
+User-agent: Yandex
+Allow: /
+Disallow: /*/accounts/new
+Clean-param: epik&hl&noredir&find_method&hcb /ru/*
+# See below for how Clean-param works for Yandex crawler
+# https://yandex.ru/support/webmaster/robot-workings/clean-param.html?lang=en
+
+User-agent: GPTBot
+Disallow: /

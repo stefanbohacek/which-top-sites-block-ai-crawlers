@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://eldonjames.com/sitemap_index.xml

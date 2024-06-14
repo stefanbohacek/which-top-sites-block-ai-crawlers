@@ -1,0 +1,18 @@
+Sitemap: https://www.chick-fil-a.com/sitemap.xml
+User-agent: *
+Disallow: */~/*
+Disallow: /forgot2scan*
+Disallow: /Account*
+Disallow: /account*
+Disallow: /MyProfile*
+Disallow: /myprofile*
+Disallow: /search/
+Disallow: /missedtransaction/
+Disallow: /menuredirect/
+Disallow: /cateringredirect/
+
+Disallow: /sitecore*
+Disallow: *Incapsula*
+
+
+

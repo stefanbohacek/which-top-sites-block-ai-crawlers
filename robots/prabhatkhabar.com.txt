@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.prabhatkhabar.com/sitemap_index.xml
+Sitemap: https://www.prabhatkhabar.com/news-sitemap.xml

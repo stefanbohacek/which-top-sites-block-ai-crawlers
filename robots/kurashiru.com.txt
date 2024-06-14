@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /readme.txt
+Disallow: /debug
+Disallow: /api/
+Disallow: /admin/
+Disallow: /files/service-policy.pdf
+Disallow: /files/privacy-policy.pdf
+Disallow: /login
+Disallow: /account/
+Disallow: /oembed/
+Disallow: /rss/
+
+User-agent: baiduspider
+Crawl-delay: 1
+
+User-agent: baiduspider+
+Crawl-delay: 1
+
+User-agent: Yandex
+Crawl-delay: 1
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap:https://www.kurashiru.com/sitemap.xml.gz
+Sitemap:https://www.kurashiru.com/article/sitemap.xml.gz

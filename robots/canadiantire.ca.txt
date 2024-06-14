@@ -1,0 +1,19 @@
+# robots.txt for ODP_CT
+User-agent: *
+Crawl-delay: 10
+Disallow: /en/robots
+
+# Sitemap files
+Sitemap:https://www.canadiantire.ca/sitemap.xml
+
+#Security
+Disallow: /en/password-reset
+Disallow: /fr/reinitialisation-mot-de-passe
+Disallow: /content/canadian-tire/en/password-reset
+Disallow: /content/canadian-tire/fr/password-reset
+
+#Deep links
+Allow: /.well-known/apple-app-site-association
+Allow: /.well-known/assetlinks.json
+Allow: /content/canadiantire/apple-app-site-association.json
+Allow: /content/canadiantire/assetlinks.json

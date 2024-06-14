@@ -1,0 +1,8 @@
+User-agent: *
+Allow: / 
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+Disallow: /record/__kalyan-chart.php
+Disallow: /record/__kalyan-penal-chart.php
+
+Sitemap: https://sattamatka1.co.com/sitemap.xml

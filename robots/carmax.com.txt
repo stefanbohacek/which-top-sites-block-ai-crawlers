@@ -1,0 +1,34 @@
+User-agent: *
+Disallow: /500.html
+Disallow: /contact-us/appointment/cancel
+Disallow: /contact-us/appointment/cancel-confirmation
+Disallow: /contact-us/schedule/test-drive
+Disallow: /contact-us/schedule/test-drive-confirmation
+Disallow: /email
+Disallow: /mycarmax/appointments
+Disallow: /mycarmax/cancel-alerts
+Disallow: /mycarmax/cancel-alerts-confirmation
+Disallow: /mycarmax/forgot-password-confirmation
+Disallow: /mycarmax/invalid-link
+Disallow: /mycarmax/profile
+Disallow: /mycarmax/reset-password
+Disallow: /mycarmax/reset-password-confirmation
+Disallow: /mycarmax/saved-cars
+Disallow: /mycarmax/saved-cars-unsubscribe
+Disallow: /mycarmax/saved-cars-unsubscribe-confirmation
+Disallow: /mycarmax/saved-searches
+Disallow: /mycarmax/saved-searches-unsubscribe
+Disallow: /mycarmax/saved-searches-unsubscribe-confirmation
+Disallow: /cars/for-you/luxury-vehicles-for-you
+Disallow: /car/*/vehicle-history
+
+Sitemap: https://www.carmax.com/sitemap.xml
+Sitemap: https://www.carmax.com/shared/sitemaps/index.xml
+Sitemap: https://www.carmax.com/research/sharedsitemap.xml
+Sitemap: https://www.carmax.com/shared/sitemaps/articles-index.xml
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: trovitBot
+Disallow: /

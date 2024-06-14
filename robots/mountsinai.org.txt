@@ -1,0 +1,87 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /vgn-ext/templating
+Disallow: /*lp/
+Disallow: /insurance/
+Disallow: /about/preparedness/coronavirus/staff-resources*
+Disallow: /about/covid19/staff-resources*
+
+User-agent: Alexabot
+Disallow: /about-us/newsroom/
+Crawl-delay: 5
+
+User-agent: CCBot
+Disallow:
+Crawl-delay: 20
+
+User-agent: BLEXBot
+Disallow:
+Crawl-delay: 10
+
+User-agent: Findxbot
+Disallow:
+Crawl-delay: 10
+
+User-agent: rogerbot
+Disallow: /about-us/newsroom/
+Crawl-delay: 10
+
+User-agent: Yeti
+Disallow:
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Disallow:
+Crawl-delay: 10
+
+User-agent: SEMrushBot
+Disallow:
+Crawl-delay: 10
+ 
+User-agent: SEMrushBot-SA
+Disallow:
+Crawl-delay: 10
+
+User-agent: SEMrushBot-Desktop
+Disallow:
+Crawl-delay: 10
+
+User-agent: opensiteexplorer.org
+Disallow:
+Crawl-delay: 10
+
+User-agent: dotbot
+Disallow:
+Crawl-delay: 20
+
+User-agent: Slurp
+Disallow:
+Crawl-delay: 10
+
+User-agent: sufog.com
+Disallow: /
+
+User-agent: MJ12
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: ads.mopub.com
+Disallow: /
+
+User-agent: MJ12bot
+Disallow:
+Crawl-delay: 10
+
+Sitemap: https://www.mountsinai.org/files/MSHealth/Assets/sitemaps/care-sitemap.xml
+Sitemap: https://www.mountsinai.org/files/MSHealth/Assets/sitemaps/healthlibrary-sitemap.xml
+Sitemap: https://www.mountsinai.org/files/MSHealth/Assets/sitemaps/locations-sitemap.xml
+Sitemap: https://www.mountsinai.org/files/MSHealth/Assets/sitemaps/doctors-sitemap.xml

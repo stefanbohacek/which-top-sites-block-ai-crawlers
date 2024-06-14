@@ -1,0 +1,27 @@
+User-agent: ClaudeBot
+User-agent: Bytespider
+User-agent: SeekportBot
+User-agent: AhrefsBot
+User-agent: MJ12Bot
+User-agent: PetalBot
+User-agent: SEMrushBot
+User-agent: MauiBot
+User-agent: DataForSeoBot
+User-agent: BLEXBot
+User-agent: ImagesiftBot
+User-agent: Barkrowler
+User-agent: moget
+User-agent: ichiro
+User-agent: NaverBot
+User-agent: Yeti
+User-agent: sogou spider
+User-agent: YoudaoBot
+User-agent: YandexBot
+User-agent: FriendlyCrawler
+User-agent: Turnitin
+User-agent: DotBot
+User-agent: Jaunt
+User-agent: Verity
+User-agent: GPTBot
+User-agent: serpstatbot
+Disallow: /

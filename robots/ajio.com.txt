@@ -1,0 +1,124 @@
+# 1st Update: 17-11-2016 by SEO Team
+# Last update: 01/07/2019 by Product Team
+
+# Hello Search Engine Bots
+User-agent: *
+
+# Block My Account, Cart & Checkout Pages
+Disallow: /my-account
+Disallow: /cart
+Disallow: /checkout
+Disallow: /wishlist
+Disallow: /help/contactus
+
+# Block All Search Pages
+Disallow: /search
+Disallow: /*/search/*
+
+
+# Block All PDP Pincode Search Pages
+Disallow: /pincode
+Disallow: /*/pincode/*
+
+# Block All PDP Size Variants
+Disallow: /*sizeSelected*
+
+# Block Unwanted Sort Pages
+Disallow: /*?query=*relevance$
+Disallow: /*?query=*prce-asc$
+Disallow: /*?query=*prce-desc$
+Disallow: /*?query=*newn$
+
+# Block Unwanted Facet Filter Pages (Temporarily Setup for Checkbox Linking
+# Feature Released in Sep 2016 Release)
+Disallow: /*?query=*brand*
+Disallow: /*?query=*verticalsizegroupformat*
+Disallow: /*?query=*verticalcolorfamily*
+Disallow: /*?query=*discount*
+Disallow: /*?query=*brickpattern*
+Disallow: /*?query=*allPromotions*
+Disallow: /*?query=*bricklength*
+Disallow: /*?query=*bricksleeve*
+Disallow: /*?query=*head*brand*
+Disallow: /*?query=*l1l3category*
+Disallow: /*?query=*l1l2category*
+Disallow: /*?query=*brickcapsuleid*
+Disallow: /*?query=*brickprimarycolor*
+Disallow: /*?query=*brickcatgtype*
+Disallow: /*?query=*brickcfsclass*
+Disallow: /*?query=*verticalsubcategory*
+Disallow: /*?query=*verticalcolorshade*
+Disallow: /*?query=*verticalcolorshade*
+Disallow: /*?query=*verticalmaterialtype*
+Disallow: /*?query=*verticalwashcare*
+Disallow: /*?query=*brickuppermaterial*
+Disallow: /*?query=*brickskirtlength*
+Disallow: /*?query=*bricktoeshape*
+Disallow: /*?query=*verticalstonetype*
+Disallow: /*?query=*brickcfscategory*
+Disallow: /*?query=*brickneckline*
+Disallow: /*?query=*bricksecondarycolor*
+Disallow: /*?query=*brickfittype*
+Disallow: /*?query=*brickcare*
+Disallow: /*?query=*brickfitting*
+Disallow: /*?query=*brickheelheight*
+Disallow: /*?query=*brickaccent*
+Disallow: /*?query=*brickstyletype*
+Disallow: /*?query=*brickwaistrise*
+Disallow: /*?query=*brickdistress*
+Disallow: /*?query=*brickwash*
+Disallow: /*?query=*Averticaldesign*
+Disallow: /*?query=*brickanklestyle*
+Disallow: /*?query=*brickdesign*
+Disallow: /*?query=*brickheel*
+Disallow: /*?query=*bricksolematerial*
+Disallow: /*?query=*bricksport*
+Disallow: /*?query=*brickdresslength*
+Disallow: /*?query=*occasion*
+Disallow: /*?query=*brickcoverage*
+Disallow: /*?query=*brickfeature*
+Disallow: /*?query=*bricklapel*
+Disallow: /*?query=*relevance*curated*head*category
+Disallow: /*?query=*relevance*curated*head*
+Disallow: /*?query=*relevance*category*
+Disallow: /*?query=*category*category*
+Disallow: /*?query=*category*
+Disallow: /*?query=*head*
+Disallow: /*?query=*curated*
+Disallow: /*?query=*bricksizeformat*
+Disallow: /*?query=*brickclasptype*
+Disallow: /*?query=*bricklaptopsize*
+Disallow: /*?query=*brickwiring*
+Disallow: /*?query=*bricksettype*
+Disallow: /*?query=*exclusivetillfilter*
+Disallow: /*?query=*brickfrontstyle*
+Disallow: /*?query=*brickpacktype*
+Disallow: /*?query=*brickbuttonclosure*
+Disallow: /*?query=*genderfilter*
+Disallow: /*?query=*verticalsizegroup*
+Disallow: /*?query=*diesel*
+Disallow: /*?query=*Diesel*
+
+# Good-bye All Sort & Filter Pages
+Disallow: /*?query=*
+Disallow: /*?q=*
+
+# Block Old Collection Pages
+Disallow: /collection/c/83?query=*
+
+# Show sitemap to Google
+Sitemap: https://www.ajio.com/sitemap.xml
+Sitemap: https://azorte.ajio.com/sitemap.xml
+Sitemap: https://avantra.ajio.com/sitemap.xml
+Sitemap: https://gap.ajio.com/sitemap.xml
+Sitemap: https://trends.ajio.com/sitemap.xml
+Sitemap: https://luxe.ajio.com/sitemap.xml
+Sitemap: https://muji.ajio.com/sitemap.xml
+
+# Block Naughty Bots
+User-agent: CazoodleBot
+User-agent: MJ12bot
+User-agent: dotbot/1.0
+User-agent: Gigabot
+Disallow: /
+

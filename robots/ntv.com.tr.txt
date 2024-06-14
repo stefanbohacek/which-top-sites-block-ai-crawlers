@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Sitemap: https://www.ntv.com.tr/sitemaps/news-sitemap.xml
+Sitemap: https://www.ntv.com.tr/sitemaps

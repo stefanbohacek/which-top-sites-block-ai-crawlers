@@ -1,0 +1,53 @@
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+
+<div id="chart" class="mt-5"
+  style="width: 900px; height: 600px;">
+</div>
+
+<script>
+  const ready = (fn) => {
+    if (document.readyState !== "loading") {
+      fn();
+    } else {
+      document.addEventListener("DOMContentLoaded", fn);
+    }
+  };
+
+  ready(async () => {
+    const chartDom = document.getElementById("chart");
+    chartDom.style.width = `${Math.min(window.innerWidth / 2, 960)}px`;
+    const myChart = echarts.init(chartDom, null, { renderer: "svg" });
+
+    const option = {
+      xAxis: {
+        data: ['Allow AI crawlers', 'Block AI crawlers', 'Block all crawlers']
+      },
+      yAxis: {
+        axisLabel: {
+          show: true
+        }
+      },
+      title: {
+        text: 'Number of sites blocking or allowing AI crawlers on at least some of its content'
+      },
+      series: [
+        {
+          data: [9, 227, 605],
+          type: 'bar',
+          stack: 'x'
+        },
+        {
+          data: [726, 508, 130],
+          type: 'bar',
+          stack: 'x'
+        }
+      ],
+      color: [
+        '#73b9bc',
+        'silver'
+      ]
+    };
+    myChart.setOption(option);
+  });
+
+</script>

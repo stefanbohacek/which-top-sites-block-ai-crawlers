@@ -1,0 +1,40 @@
+#09/27/2021 SEO TEAM
+
+User-agent: Mediapartners-Google
+User-agent: Slurp
+User-agent: Sogou web spider
+User-agent: Yahoo Ad Monitoring
+Disallow: /
+
+User-agent: Tag Inspector Spider
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /*psid=
+
+User-Agent: *
+Disallow: */recall*vin=
+Disallow: /*trid=      
+Disallow: /*psid=
+Disallow: /*siomid
+Disallow: /mykbb/
+Disallow: /*legaldisclaimer
+Disallow: /*?listingid=
+Disallow: /*?repair=
+Disallow: /schedule-service
+Disallow: /base-style-consumer_reviews_write_review/
+Disallow: /car-dealers/experian*
+Disallow: /redirect/experian_forward.jsp*
+Disallow: /pixall/pix-at.min.js1
+Disallow: /marketplace/buy/*
+Disallow: /marketplace/api/files/*
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot 
+Disallow: /
+
+Sitemap: https://www.kbb.com/sitemap-index.xml
+Sitemap: https://www.kbb.com/sitemap-classifieds_condition_make_model_trim.xml.gz
+Sitemap: https://www.kbb.com/sitemap-classifieds_condition_make_model_year.xml.gz

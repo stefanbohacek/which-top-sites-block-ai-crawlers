@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /qr/
+Disallow: /en/qr/
+Disallow: /es/qr/
+Sitemap: https://www.dominos.com/sitemap.xml

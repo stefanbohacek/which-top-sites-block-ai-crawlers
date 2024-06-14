@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+        <title>Metric Conversion charts and calculators</title>
+	<meta content="Metric Conversion calculators, tables and formulas for temperature, length, area, volume and weight metric conversions." name="Description" />
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+	<link href="/css3/metric-conversions090922B.css" rel="stylesheet" type="text/css"/>
+	<link rel='stylesheet' media='screen and (max-device-width: 480px)' href='/css3/metric-conversions-mobile090922C.css' type='text/css' />
+	<link rel='canonical' href='https://www.metric-conversions.org/' />
+	<link rel="alternate" hreflang="en" href="https://www.metric-conversions.org/" />
+	<link rel="alternate" hreflang="x-default" href="https://www.metric-conversions.org/" />
+	<link rel="alternate" hreflang="es" href="https://www.metric-conversions.org/es/" />                                                                 
+	<link rel="alternate" hreflang="fr" href="https://www.metric-conversions.org/fr/" />                                                                 
+	<link rel="alternate" hreflang="de" href="https://www.metric-conversions.org/de/" />                                                        
+	<link rel="alternate" hreflang="pt" href="https://www.metric-conversions.org/pt/" />                                                                 
+	<link rel="alternate" hreflang="it" href="https://www.metric-conversions.org/it/" />                                                                 
+	<link rel="alternate" hreflang="nl" href="https://www.metric-conversions.org/nl/" />                                                                 
+	<link rel="alternate" hreflang="ru" href="https://www.metric-conversions.org/ru/" />                                                                 
+	<link rel="alternate" hreflang="zh-cn" href="https://www.metric-conversions.org/zh-hans/" />                                                                 
+	<link rel="alternate" hreflang="zh-tw" href="https://www.metric-conversions.org/zh-hant/" />                                                                 
+	<link rel="alternate" hreflang="ja" href="https://www.metric-conversions.org/ja/" />                                                                 
+	<link rel="alternate" hreflang="ko" href="https://www.metric-conversions.org/ko/" />                                                                 
+	<link rel="alternate" hreflang="sv" href="https://www.metric-conversions.org/sv/" />                                                                 
+	<link rel="alternate" hreflang="no" href="https://www.metric-conversions.org/no/" />                                                                 
+	<link rel="alternate" hreflang="da" href="https://www.metric-conversions.org/da/" />                                                                 
+	<link rel="alternate" hreflang="cs" href="https://www.metric-conversions.org/cs/" />                                                                 
+	<link rel="alternate" hreflang="ca" href="https://www.metric-conversions.org/ca/" />                                                                 
+	<link rel="alternate" hreflang="el" href="https://www.metric-conversions.org/el/" />                                                                 
+	<link rel="alternate" hreflang="pl" href="https://www.metric-conversions.org/pl/" />                                                                 
+	<link rel="alternate" hreflang="sl" href="https://www.metric-conversions.org/sl/" />                                                                 
+	<link rel="alternate" hreflang="sk" href="https://www.metric-conversions.org/sk/" />                                                                 
+	<link rel="alternate" hreflang="hu" href="https://www.metric-conversions.org/hu/" />                                                                 
+	<link rel="alternate" hreflang="bg" href="https://www.metric-conversions.org/bg/" />                                                                 
+	<link rel="alternate" hreflang="pt-br" href="https://www.metric-conversions.org/pt-br/" />                                                                 
+	<link rel="alternate" hreflang="fi" href="https://www.metric-conversions.org/fi/" />                                                                 
+	<link rel="alternate" hreflang="sr" href="https://www.metric-conversions.org/sr-cyrl/" />                                                                 
+	<link rel="alternate" hreflang="lt" href="https://www.metric-conversions.org/lt/" />                                                                 
+	<link rel="alternate" hreflang="hi" href="https://www.metric-conversions.org/hi/" />                                                                 
+	<link rel="alternate" hreflang="hr" href="https://www.metric-conversions.org/hr/" />                                                                 
+	<link rel="alternate" hreflang="be" href="https://www.metric-conversions.org/be/" />                                                                 
+	<link rel="alternate" hreflang="sq" href="https://www.metric-conversions.org/sq/" />                                                                 
+	<link rel="alternate" hreflang="uk" href="https://www.metric-conversions.org/uk/" />                                                                 
+	<link rel="alternate" hreflang="ro" href="https://www.metric-conversions.org/ro/" />                                                                 
+	<link rel="alternate" hreflang="et" href="https://www.metric-conversions.org/et/" />                                                                 
+	<link rel="alternate" hreflang="ms" href="https://www.metric-conversions.org/ms/" />                                                                 
+	<link rel="alternate" hreflang="mt" href="https://www.metric-conversions.org/mt/" />                                                                 
+	<link rel="alternate" hreflang="tl" href="https://www.metric-conversions.org/tl/" />                                                                 
+	<link rel="alternate" hreflang="id" href="https://www.metric-conversions.org/id/" />                                                                 
+	<link rel="alternate" hreflang="vi" href="https://www.metric-conversions.org/vi/" />                                                                 
+	<link rel="alternate" hreflang="tr" href="https://www.metric-conversions.org/tr/" />                                                                 
+	<link rel="alternate" hreflang="af" href="https://www.metric-conversions.org/af/" />                                                                 
+	<link rel="alternate" hreflang="cy" href="https://www.metric-conversions.org/cy/" />                                                                 
+	<link rel="alternate" hreflang="bn" href="https://www.metric-conversions.org/bn/" />                                                                 
+	<link rel="alternate" hreflang="te" href="https://www.metric-conversions.org/te/" />                                                                 
+	<link rel="alternate" hreflang="gu" href="https://www.metric-conversions.org/gu/" />                                                                 
+	<link rel="alternate" hreflang="mk" href="https://www.metric-conversions.org/mk/" />                                                                 
+	<link rel="alternate" hreflang="ka" href="https://www.metric-conversions.org/ka/" />                                                                 
+	<link rel="alternate" hreflang="hy" href="https://www.metric-conversions.org/hy/" />                                                                 
+	<link rel="alternate" hreflang="az" href="https://www.metric-conversions.org/az/" />                                                                 
+	<link rel="alternate" hreflang="th" href="https://www.metric-conversions.org/th/" />                                                                 
+	<link rel="alternate" hreflang="bs" href="https://www.metric-conversions.org/bs/" />                                                                 
+	<link rel="alternate" hreflang="kk" href="https://www.metric-conversions.org/kk/" />                                                                 
+	<link rel="alternate" hreflang="tk" href="https://www.metric-conversions.org/tk/" />                                                                 
+	<link rel="alternate" hreflang="ta" href="https://www.metric-conversions.org/ta/" />                                                                 
+	<link rel='manifest' href='/manifest.json' />
+	<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0;" />
+    </head>
+    <body>
+        <header>           
+            <div id="logo"></div>
+            <aside id="language">Language</aside>
+            <nav id="topMenu"></nav>
+        </header>
+        <div class="main">
+            <h1>Metric conversion charts and calculators for metric conversions</h1>
+            <section id="userInput">
+                <form autocomplete="off" id="convertForm">
+                    <p>
+			<input name="queryFrom" id="queryFrom" class="searchField" placeholder="&#x1F50D; convert from (e.g. Celsius)" type="text" autocomplete="off" autocorrect="off" autofocus>
+			&#8594;
+			<input name="queryTo" id="queryTo" class="searchField" placeholder="&#x1F50D; convert to (e.g. Fahrenheit)" type="text" autocomplete="off" autocorrect="off">
+		    </p>                         
+                </form>                    
+            </section>	    
+            <section id="search" class="homeSearch"></section>
+	    <div class="clear"></div>
+            <div id="typeMenu">
+                <a href="/temperature-conversion.htm" title="Temperature Conversion" class="typeConv temperature bluebg">Temperature</a>
+                <a href="/weight-conversion.htm" title="Weight Conversion" class="typeConv weight bluebg">Weight</a>
+                <a href="/length-conversion.htm" title="Length Conversion" class="typeConv length bluebg">Length</a>
+                <a href="/area-conversion.htm" title="Area Conversion" class="typeConv area bluebg">Area</a>
+                <a href="/volume-conversion.htm" title="Volume Conversion" class="typeConv volume bluebg">Volume</a>
+                <a href="/speed-conversion.htm" title="Speed Conversion" class="typeConv speed bluebg">Speed</a>
+                <a href="/time-conversion.htm" title="Time Conversion" class="typeConv time bluebg">Time</a>
+                <a href="/angle-conversion.htm" title="Angle Conversion" class="typeConv angle bluebg">Angle</a>
+                <a href="/pressure-conversion.htm" title="Pressure Conversion" class="typeConv pressure bluebg">Pressure</a>
+                <a href="/energy-and-power-conversion.htm" title="Energy Conversion" class="typeConv energy bluebg">Energy and Power</a>
+                <a href="/health-conversion.htm" title="Health Conversion" class="typeConv health bluebg">Health and Wellbeing</a>
+            </div>
+	    <div class="clear"></div>
+            <article class="typeDef mainHome">
+		<p>The metric system originated in France in 1799 following the French Revolution although decimal units had been used in many other countries and cultures previously. Although there have been many different measurements and the definitions of the units have been revised, the official system of measurements of most countries is the modern form of the metric system which is known as the "International System of Units".<br /><br />Since other systems of measurement are still used around the world, such as the United States and the United Kingdom, this site aims to help people convert units of measurement with <a href="/converter.htm" >Metric Converter</a> and <a href="/metric-conversion-table.htm" >Metric Conversion Table</a> and to better understand alternative measurements that they are unfamiliar with. The measurement units are categorized into types (such as <a href="/temperature-conversion.htm" >Temperature Conversion</a>, <a href="/weight-conversion.htm" >Weight Conversion</a> and so on) seen on the right-hand side which then lead to a series of metric conversion calculators.<br /><br />If you have a suggestion for new units to be added or suggestions on how to improve this site please <a href="mailto:website@metric-conversions.org">contact us by email</a>.</p>
+            </article>
+	    <div class="clear"></div>
+	    <div id="mainLinks">
+		<a href="/length/kilometers-to-miles.htm" class="typeConv length greybg">km to miles</a>
+		<a href="/length/miles-to-kilometers.htm" class="typeConv length greybg">Miles to Kilometers</a>				
+		<a href="/temperature/celsius-to-fahrenheit.htm" class="typeConv temperature greybg">Celsius to Fahrenheit</a>
+		<a href="/temperature/fahrenheit-to-celsius.htm" class="typeConv temperature greybg">Fahrenheit to Celsius</a>				
+		<a href="/weight/kilograms-to-pounds.htm" class="typeConv weight greybg">kg to pounds</a>
+		<a href="/weight/pounds-to-kilograms.htm" class="typeConv weight greybg">pounds to kg</a>				
+		<a href="/weight/kilograms-to-stones.htm" class="typeConv weight greybg">kg to stones</a>
+		<a href="/weight/stones-to-kilograms.htm" class="typeConv weight greybg">Stones to Kilograms</a>				
+		<a href="/length/meters-to-feet.htm" class="typeConv length greybg">Meters to Feet</a>
+		<a href="/length/feet-to-meters.htm" class="typeConv length greybg">Feet to Meters</a>
+		<a href="/length/inches-to-centimeters.htm" class="typeConv length greybg">inches to cm</a>
+		<a href="/length/centimeters-to-inches.htm" class="typeConv length greybg">cm to inches</a>
+		<a href="/length/millimeters-to-inches.htm" class="typeConv length greybg">mm to inches</a>
+		<a href="/length/inches-to-millimeters.htm" class="typeConv length greybg">inches to mm</a>						
+		<a href="/length/inches-to-feet.htm" class="typeConv length greybg">Inches to Feet</a>
+		<a href="/length/feet-to-inches.htm" class="typeConv length greybg">Feet to Inches</a>				
+		<a href="/speed/miles-per-hour-to-kilometers-per-hour.htm" class="typeConv speed greybg">mph to kph</a>
+		<a href="/speed/kilometers-per-hour-to-miles-per-hour.htm" class="typeConv speed greybg">kph to mph</a>
+		<a href="/app.htm" class="typeConv appIcon bluebg">iPhone & Android app</a>
+		<a href="/metric-conversion-table.htm" class="typeConv tableIcon bluebg">Metric Conversion Table</a>
+		<a href="/converter.htm" class="typeConv calcIcon bluebg">Metric Converter</a>                				    
+	    </div>			    
+            <div class="clear"></div>
+            <div id="mobileLeader"></div>
+        </div>
+        <!--mike 040324 --><div class="clear"></div><footer>
+            <nav id="menulinks">
+                <ul>				
+		    <li><a href="/site-map.htm" id="sitemap" class="topLink">Site Map</a></li>
+		    <li><a href="mailto:website@metric-conversions.org" id="contact" class="topLink">Contact</a></li>
+		    <li><a href="https://play.google.com/store/apps/details?id=com.wighthat.MetricConversion">Metric Converter app on Android</a></li>
+                </ul>
+            </nav>
+	    <div class="clear"></div>	    	    
+            <div class="footerText">
+		<p>This site is owned and maintained by <a href="http://www.wight-hat.com/">Wight Hat Ltd.</a> ©2003-2024.</p>
+		<p>Our full terms & conditions can be found by <a href="https://www.metric-conversions.org/terms.htm">clicking here</a>.</p>
+		<p>Whilst every effort has been made to ensure the accuracy of the metric calculators and charts given on this site, we cannot make a guarantee or be held responsible for any errors that have been made. If you spot an error on this site, we would be grateful if you could report it to us by using the contact link at the top of this page and we will endeavour to correct it as soon as possible.</p>
+		<p>this page last updated:: Tue 18 Feb 2020</p>
+            </div>
+	    <div id="baseBanner" class="exists"></div>
+        </footer>
+        <script type="text/javascript">
+            var converttext="Convert";
+            var tabletext="Table";
+	    var analAccNo= 'UA-6140267-2';
+	    var langIndex= 1;
+	    var templateIndex=1;
+	    var typeIndex=0;
+	    var fromIndex=0;
+	    var toIndex=0;
+	    var typeName="None";
+	    var fromName="None";
+	    var toName="None";
+	    var altUrls= ["/","/es/","/fr/","/de/","/pt/","/it/","/nl/","/ru/","/zh-hant/","/zh-hans/","/ja/","/ko/","/sv/","/no/","/da/","/cs/","/ca/","/el/","/pl/","/sl/","/sk/","/hu/","/bg/","/pt-br/","/fi/","/sr-cyrl/","/lt/","/hi/","/hr/","/be/","/sq/","/uk/","/ro/","/et/","/ms/","/mt/","/tl/","/id/","/vi/","/tr/","/af/","/sr-latn/","/cy/","/bn/","/te/","/gu/","/mk/","/ka/","/hy/","/az/","/th/","/bs/","/kk/","/tk/","/ta/"];
+        </script>
+	<div id="opaque"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="/util/metric-conversions180324.js" async></script>
+    </body>
+</html>

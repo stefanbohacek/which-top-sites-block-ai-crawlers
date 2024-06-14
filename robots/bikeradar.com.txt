@@ -1,0 +1,7 @@
+User-agent: GPTBot
+Disallow: /
+User-agent: *
+Allow: /
+Disallow: /search
+Sitemap: https://www.bikeradar.com/sitemap/index.xml.gz
+Sitemap: https://www.bikeradar.com/sitemap/news.xml.gz

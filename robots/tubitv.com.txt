@@ -1,0 +1,11 @@
+User-agent: grapeshot
+Disallow: /
+
+User-agent: *
+Disallow: /profile/
+Disallow: /reset/
+Disallow: /search/
+Disallow: /categories
+Disallow: /my-stuff
+
+Sitemap: https://tubitv.com/sitemap.xml

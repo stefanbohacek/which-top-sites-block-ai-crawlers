@@ -1,0 +1,16 @@
+User-agent: *
+Sitemap: https://www.cuemath.com/global-sitemaps/sitemap-index.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/blog-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/general-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/global-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/math-program-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/math-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/ncert-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/questions-sitemap.xml
+Sitemap: https://www.cuemath.com/global-sitemaps/supply-sitemap.xml
+Disallow: /blog/tag
+Disallow: /centres/search/
+Disallow: /?utm_source=
+Disallow: /wp-admin/
+Disallow: /ncert-solutions-1/
+Disallow: /dsa/

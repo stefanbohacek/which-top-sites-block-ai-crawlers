@@ -1,0 +1,29 @@
+# Robots.txt
+# Last updated 2/10/2020
+
+Sitemap: https://edu.gcfglobal.org/sitemap
+User-agent: *
+Disallow: /en/account/
+Disallow: /en/offline-site
+Disallow: /en/download/all
+Disallow: /en/dev-playground
+Disallow: /en/topics/everydaylife/
+Disallow: /en/edlall/
+Disallow: /en/aroundtown/
+Disallow: /en/foodandcooking/
+Disallow: /en/healthandsafety/
+Disallow: /en/edlmoney/
+Disallow: /en/workskills/
+
+# requested by Shane and Ana Pugatch on March 2022
+Disallow: /en/zoom/
+Disallow: /en/wordpress-resources
+Disallow: /en/googlehangouts
+Disallow: /en/vine/
+Disallow: /en/searchbetter
+# requested by Ana Pugatch on July 2022
+Disallow: /en/freelance-work
+Disallow: /en/edge
+Disallow: /en/internetexplorer
+# requested by Ana Pugatch on August 2022
+Disallow: /en/skype

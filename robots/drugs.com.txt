@@ -1,0 +1,25 @@
+User-agent: Mediapartners-Google
+User-agent: Twitterbot
+User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1
+Disallow:
+
+User-agent: *
+Disallow: /api/
+Disallow: /drug-interactions-all/
+Disallow: /interactions-list-drugs.php
+Disallow: /members_comments_add/
+Disallow: /search.php
+Disallow: /search-wildcard-phonetic.php
+Disallow: /survey/
+
+User-agent: crawler4j
+User-agent: Ezooms
+User-agent: Offline Explorer
+User-agent: OOZBOT
+User-agent: oozbot
+User-agent: SETOOZBOT
+User-agent: setoozbot
+User-agent: yacybot
+Disallow: /
+
+Sitemap: https://www.drugs.com/sitemap_index.xml.gz

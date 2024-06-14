@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /functions/
+Disallow: /webmain/
+Disallow: /*/wcdata/
+Disallow: /_next/
+Disallow: /us/
+Disallow: /ca/
+Disallow: /jd-trkr
+Disallow: /api/
+Disallow: /real-estate/services/api/
+Disallow: /api/php/appUserId
+Disallow: /gapi/ratings
+Disallow: /api/india_api_write
+Disallow: /api/india_api_read
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /

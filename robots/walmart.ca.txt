@@ -1,0 +1,83 @@
+User-agent: *
+
+# Prevent refined browse pages from being crawled, avoiding millions of near-duplicate entries.  MG IG
+Disallow: /en/*+*
+Disallow: /fr/*+*
+
+Allow: /en/*?facet=*
+Allow: /fr/*?facet=*
+
+Disallow: /ws/*
+
+# Now allowing assets to be crawled.   MG
+#Disallow: /assets/*
+
+Disallow: /webjars/*
+Disallow: /css-pattern-library
+
+Disallow: /*/app$
+Disallow: /*/global$
+Disallow: /cart
+Disallow: /panier
+
+Disallow: /search/*
+Disallow: /cherche/*
+Disallow: /search?*
+Disallow: /recherche?*
+
+Allow: /search?*z=1
+Allow: /en/search?*z=1
+
+Disallow: /en/kiosk/*
+Disallow: /fr/kiosk/*
+Disallow: /*/associates
+
+Disallow: /*?f=*
+
+Disallow: /ce/*?c=*
+
+Disallow: /cf/*?c=*
+
+Disallow: /ouvrir-une-session*
+
+Disallow: /sign-in*
+
+Disallow: /en/ip/*/*null$
+Disallow: /fr/ip/*/*null$
+Disallow: /en/ip/*
+Allow: /en/ip/*/*
+Disallow: /fr/ip/*
+Allow: /fr/ip/*/*
+Disallow: /fr/en/ip/*
+
+Allow: /*?f=*&b=1
+
+Allow: /en/search?*x=1
+Allow: /fr/search?*x=1
+
+# Prevents Financial Services One and Done page from being hit. 11-16-2016  NV
+Disallow: /en/email/gifts-voucher
+
+# Prevents Financial WM MC page from being hit, contains promocodes. 11-16-2016  NV
+Disallow: /en/financial-services/walmart-rewards-mastercard-apply-now
+Disallow: /fr/services-financiers/recompenses-walmart-mastercard-faire-une-demande
+
+Disallow: /api/*
+Allow: /*/api/v2/collector
+
+# Rate limiting for Bingbots
+User-agent: Bingbot
+Crawl-delay: 1
+
+
+# Adding new rules
+Sitemap: https://www.walmart.ca/sitemap-categories.xml
+Sitemap: https://www.walmart.ca/sitemap-brands.xml
+Sitemap: https://www.walmart.ca/sitemap-brands-legacy.xml
+Sitemap: https://www.walmart.ca/sitemap-collections.xml
+Sitemap: https://www.walmart.ca/sitemap-collections-ca.xml
+Sitemap: https://www.walmart.ca/sitemap-products.xml
+Sitemap: https://www.walmart.ca/sitemap-topic.xml
+Sitemap: https://www.walmart.ca/sitemap-brand-category.xml
+
+#Ending of robots.txt

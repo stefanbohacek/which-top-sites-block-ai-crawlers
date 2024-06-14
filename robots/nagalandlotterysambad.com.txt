@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# XML Sitemap & Google News version 5.4.8 - https://status301.net/wordpress-plugins/xml-sitemap-feed/
+Sitemap: https://nagalandlotterysambad.com/sitemap-news.xml
+Sitemap: https://nagalandlotterysambad.com/wp-sitemap.xml

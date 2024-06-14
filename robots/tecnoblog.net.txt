@@ -1,0 +1,143 @@
+# All robots
+User-agent: *
+
+# Diretórios
+Disallow: /wp-admin/
+Disallow: /wp-json/
+Disallow: /fwd/
+Disallow: /zap
+Disallow: /cdn-cgi/
+Disallow: /date/
+Disallow: /teste/
+Disallow: /page/
+Disallow: /*/*/feed/
+Disallow: /author/*/page/
+Disallow: /stories/
+Disallow: /topblogs/
+Disallow: /*/comment-page-*/
+Disallow: /loja/
+Disallow: /descontos-*
+Disallow: /curso/
+Disallow: /*{{url}}
+Disallow: /*__trashed
+Disallow: /*tecnoblog.net/*
+Disallow: /*/about:blank
+Disallow: /*/amp/{{url
+
+# Strings
+Disallow: /reportar-erro/?pst=*
+Disallow: /*?somente=*
+Disallow: /*?replytocom=*
+Disallow: /*?attachment_id=*
+Disallow: /*?taxonomy=*
+Disallow: /*?noamp=*
+Disallow: /*?PageSpeed=
+Disallow: /*?nomobile
+Disallow: /*?sis=
+Disallow: /*?preview=true
+Disallow: /*?mdrv=tecnoblog.net
+Disallow: /*?hl=pt_BR
+Disallow: /*?_gl
+Disallow: /*?_ga
+
+# URLs de busca
+Disallow: */search/
+Disallow: /*?s=*
+
+# Meio Bit
+Disallow: /meiobit/feed/podcast
+Disallow: /meiobit/*/*/*/
+Allow: /meiobit/arquivo/*/*/
+#Disallow: /meiobit/?p=*
+#Disallow: /meiobit/*/page/
+#Disallow: /meiobit/arquivo/
+#Disallow: /meiobit/arquivos/
+#Disallow: /meiobit/author/
+#Disallow: /meiobit/comment/
+#Disallow: /meiobit/forum/
+#Disallow: /meiobit/games/
+#Disallow: /meiobit/node/
+#Disallow: /meiobit/search/
+#Disallow: /meiobit/tag/
+#Disallow: /meiobit/wp-content/
+
+# Old Translate
+Disallow: /de/
+Disallow: /en/
+Disallow: /en_*/
+#Disallow: /en_au/
+#Disallow: /en_nz/
+Disallow: /es/
+Disallow: /es_*/
+#Disallow: /es_co/
+#Disallow: /es_cl/
+#Disallow: /es_pe/
+Disallow: /fr/
+Disallow: /hi/
+Disallow: /id/
+Disallow: /it/
+Disallow: /ja/
+Disallow: /ko/
+Disallow: /nl/
+Disallow: /pt/
+Disallow: /pt_br/
+Disallow: /ru/
+Disallow: /sv/
+Disallow: /zh/
+
+
+# Comunidade
+Disallow: /c/
+Disallow: /t/
+Disallow: /u/
+
+# Remove file extensions
+Disallow: /wp-content/*.txt
+Disallow: /*.swf
+Disallow: /*.pdf
+
+#Adsense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Moz
+User-agent: rogerbot
+Disallow: /
+User-agent: dotbot
+Disallow: /
+
+# DataForSEO
+User-agent: DataForSeoBot
+Disallow: /
+
+# Semrush
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: SemrushBot-CT
+Disallow: /
+
+User-agent: SplitSignalBot
+Disallow: /
+
+User-agent: SemrushBot-COUB
+Disallow: /
+
+
+# ChatGPT
+User-agent: ChatGPT-User
+Disallow: /
+
+Sitemap: https://tecnoblog.net/sitemap_index.xml

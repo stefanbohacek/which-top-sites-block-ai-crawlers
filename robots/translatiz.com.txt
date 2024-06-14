@@ -1,0 +1,8 @@
+User-agent: BLEXBot
+User-agent: proximic
+User-agent: dotbot
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: *
+Disallow:

@@ -1,0 +1,8 @@
+User-agent: *
+
+Sitemap: https://www.climatempo.com.br/sitemap.xml
+
+Disallow: /previsao-do-tempo/imprimir/
+Disallow: /adblock
+Disallow: /adblock/
+Disallow: /json/

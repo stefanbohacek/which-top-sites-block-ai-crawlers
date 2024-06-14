@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+Disallow: /blog/author/
+#Disallow
+User-agent: BacklinkCrawler
+Disallow: /
+User-agent: Backlink-Ceck
+Disallow:/
+User-agent: backlink-check
+Disallow:/
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: *
+Disallow: /tags/
+Disallow: /photo.php

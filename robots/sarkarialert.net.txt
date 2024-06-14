@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: *.pdf
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://sarkarialert.net/sitemap_index.xml
+Sitemap: https://sarkarialert.net/page-sitemap.xml
+Sitemap: https://sarkarialert.net/post-sitemap.xml
+Sitemap: https://sarkarialert.net/post-sitemap2.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/

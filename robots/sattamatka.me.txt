@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow:  /sattamatkaAdmin/
+Disallow:  /cdn-cgi/
+Sitemap: https://sattamatka.cc/sitemap.xml

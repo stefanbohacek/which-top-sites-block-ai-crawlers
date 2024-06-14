@@ -1,0 +1,129 @@
+Sitemap: https://www.sportskeeda.com/news-sitemap.xml
+Sitemap: https://www.sportskeeda.com/us-news-sitemap.xml
+Sitemap: https://www.sportskeeda.com/video-sitemap.xml
+Sitemap: https://www.sportskeeda.com/sitemap.xml
+
+
+# allow adsense bot to parse no-index content 
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: duggmirror
+Disallow: /
+
+User-agent: grapeshot
+Disallow:
+
+User-agent: GPTBot
+Disallow: /
+
+# disallow folders
+User-agent: Googlebot
+
+# These query params appear from the links getting indexed/crawled from the Facebook
+allow: *key=skmainfb*
+allow: *key4=skwfb*
+allow: *key4=skcolbasketfb*
+allow: *key4=skaewfb*
+allow: *key4=skbaseballfb*
+allow: *key4=skcfb*
+allow: *key4=skchefb*
+allow: *key4=skf1fb*
+allow: *key4=skmaincfb*
+allow: *key4=skcfb*
+allow: *key4=skfootballfb*
+allow: *key4=skgolffb*
+allow: *key4=skmmafb*
+allow: *key4=sknascarfb*
+allow: *key4=sknbamemesfb*
+allow: *key4=skpffb*
+allow: *key4=sktenfb*
+allow: *key4=skufcfb*
+
+Disallow: /001/
+Disallow: /amp/feedback
+Disallow: /profile/*/following
+Disallow: /profile/*/followers
+Disallow: /football-match-preview/
+Disallow: /olympics-page-2/
+Disallow: /apc/
+Disallow: /cgi-bin
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /search/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /members
+Disallow: /archives
+Disallow: /?s=
+Disallow: /?p=
+Disallow: /wp-content/uploads/
+Disallow: /?attachment_id=
+Disallow: /?author=
+Disallow: /uc/
+Disallow: /quiz/
+Disallow: /redirect
+Disallow: /picks4sure 
+Disallow: /taxonomy
+Disallow: /comments/count/*
+
+Disallow: /*/load-more
+Disallow: /*/load_more
+Disallow: /*/ajax/archive
+Disallow: /*/ajax/related
+Disallow: /*/ajax/trending
+Disallow: /cricket/ajax/teams/related/*
+Disallow: /admin/notification-center
+Disallow: /admin/mapping-dashboard
+Disallow: /*/ajax/archive?page
+Disallow: /login?after-login
+Disallow: /third-party/*
+Disallow: /version
+
+Disallow: *?key1=*
+Disallow: *&key1=*
+Disallow: *?key2=*
+Disallow: *&key2=*
+Disallow: *?key3=*
+Disallow: *&key3=*
+Disallow: *?key4=*
+Disallow: *&key4=*
+Disallow: *?givingPlayers=*
+Disallow: *&givingPlayers=*
+Disallow: *?gettingPlayers=*
+Disallow: *&gettingPlayers=*
+Disallow: *?ref=*
+Disallow: *&ref=*
+Disallow: *?utm_source=*
+Disallow: *&utm_source=*
+Disallow: *?article-trending=*
+Disallow: *&article-trending=*
+Disallow: *?page=*
+Disallow: *&page=*
+Disallow: *?date=*
+Disallow: *&date=*
+Disallow: *?comment-popup=*
+Disallow: *&comment-popup=*
+Disallow: *?comment-meta-id=*
+Disallow: *&comment-meta-id=*
+Disallow: *?key=*
+Disallow: *&key=*
+Disallow: *?Key2=*
+Disallow: *&Key2=*
+Disallow: *?Key4=*
+Disallow: *&Key4=*
+Disallow: *?tab=*
+Disallow: *&tab=*
+Disallow: *?related=*
+Disallow: *&related=*
+Disallow: *?view=*
+Disallow: *&view=*
+Disallow: *?traffic=*
+Disallow: *&traffic=*
+Disallow: /edit-profile
+
+Allow: /creator/getting-started
+Disallow: /creator/*

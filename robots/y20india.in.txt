@@ -1,0 +1,8 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://y20india.in/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

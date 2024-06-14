@@ -1,0 +1,38 @@
+User-agent: Mediapartners-Google*
+Disallow:
+
+User-agent: *
+Disallow: /App_Data
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /feedback
+Disallow: /lib
+Disallow: /site/
+Disallow: /siteresult
+Host: https://www.online-translator.com/
+Sitemap: https://www.online-translator.com/sitemap.xml
+
+User-agent: Yandex
+Disallow: /App_Data
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /feedback
+Disallow: /lib
+Disallow: /site/
+Disallow: /siteresult
+Host: https://www.online-translator.com/
+Sitemap: https://www.online-translator.com/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /App_Data
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /feedback
+Disallow: /lib
+Disallow: /site/
+Disallow: /siteresult
+Host: https://www.online-translator.com/
+Sitemap: https://www.online-translator.com/sitemap.xml

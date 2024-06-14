@@ -1,0 +1,31 @@
+User-agent: *
+User-agent: AdsBot-Google
+User-agent: Adsbot-Google-Mobile
+User-agent: Mediapartners-Google
+User-agent: AdIdxBot
+Allow: */translator/c/
+Disallow: /cdn-cgi/bm/cv/
+Disallow: /cdn-cgi/challenge-platform/
+Disallow: /cdn-cgi/images/trace/
+Disallow: /cdn-cgi/rum
+Disallow: /cdn-cgi/scripts/
+Disallow: /cdn-cgi/styles/
+Disallow: /cdn-cgi/zaraz/
+Disallow: /*docs-api-legacy$
+Disallow: /*docs-api-legacy/
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Googlebot
+User-agent: Bingbot
+Disallow: */translator/c/
+Disallow: /cdn-cgi/bm/cv/
+Disallow: /cdn-cgi/challenge-platform/
+Disallow: /cdn-cgi/images/trace/
+Disallow: /cdn-cgi/rum
+Disallow: /cdn-cgi/scripts/
+Disallow: /cdn-cgi/styles/
+Disallow: /cdn-cgi/zaraz/
+Disallow: /*docs-api-legacy$
+Disallow: /*docs-api-legacy/

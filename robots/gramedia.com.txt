@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /*?name
+
+Sitemap: https://www.gramedia.com/static/sitemaps/sitemap.xml
+Sitemap: https://www.gramedia.com/static/sitemaps/sitemap-categories-1.xml
+Sitemap: https://www.gramedia.com/static/sitemaps/sitemap-products-1.xml
+Sitemap: https://www.gramedia.com/static/sitemaps/sitemap-products-2.xml
+Sitemap: https://www.gramedia.com/static/sitemaps/sitemap-products-3.xml
+Sitemap: https://www.gramedia.com/blog/sitemap.xml
+Sitemap: https://www.gramedia.com/best-seller/sitemap_index.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /lyricsdb/
+Disallow: /song/
+Allow: /
+
+User-agent: 008
+Disallow: /

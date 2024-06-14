@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /recommends/*
+Disallow: /wp-admin/*
+Disallow: /workers/cw-cache/*
+Disallow: /workers/alm-cache/*
+Disallow: /?s=
+Allow: /search/$
+Disallow: /search/*
+Allow: /

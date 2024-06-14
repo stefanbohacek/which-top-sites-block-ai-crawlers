@@ -1,0 +1,30 @@
+User-agent: Googlebot
+Disallow: /index2.html
+Disallow: /portale/index2.html
+Disallow: /maps/
+Disallow: /password/
+Disallow: /892424/
+Disallow: /portale/manutenzione.html
+Disallow: /portale/indexbusy.php
+
+User-agent: 008
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: Riddler
+Disallow: /
+
+User-agent: *
+Crawl-delay: 2
+Disallow: /*standard=1
+Disallow: /?t=*
+Disallow: /?f=*
+Disallow: /?b=*
+Disallow: /?p=*
+Disallow: /?page=*
+Disallow: /portale/node/*/amp

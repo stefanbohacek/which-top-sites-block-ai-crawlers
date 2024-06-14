@@ -1,0 +1,104 @@
+#Modified:04-23-2024
+
+User-agent: Pinterestbot
+Disallow: /events/*/product
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow:
+
+User-agent: Googlebot
+Disallow: /shop/search*
+Disallow: /shops*
+Disallow: /event/*
+Disallow: /events/*
+Disallow: /my-account*
+Disallow: /signin?
+Disallow: /signin/order-lookup
+Disallow: /s/*/write-review*
+Disallow: /track*
+Disallow: *filterByCalfWidth*
+Disallow: *filterByApplicationArea*
+Disallow: *filterByFormulation*
+Disallow: *filterByCoverage*
+Disallow: *filterByFinish*
+Disallow: *filterByHairType*
+Disallow: *filterByIngredientConcern*
+Disallow: *filterBySpf*
+Disallow: *filterByIngredientPreference*
+Disallow: *filterByBenefits*
+Disallow: *filterBySupportLevel*
+Disallow: *filterByHairThickness*
+Disallow: *filterByFaceShape*
+Disallow: *filterByLensWidth*
+Disallow: *filterByTargetArea*
+Disallow: *filterByCaseDiameter*
+Disallow: *filterByFabricCare*
+Disallow: *filterBySurface*
+Disallow: *filterBySkinType*
+Disallow: *filterByBagSize*
+Disallow: *filterByCaseShape*
+Disallow: *filterByClosure*
+Disallow: *filterByDisplayType*
+Disallow: *filterByLensTreatment*
+Disallow: *filterByToyType*
+Disallow: /*filterByProductType
+Allow: /brands/*filterByProductType
+Disallow: *filterByGenderAge*
+
+Allow: /events/men
+Allow: /events/women
+Allow: /events/kids
+Allow: /events/home
+Allow: /events/beauty
+Allow: /events/all
+
+User-agent: *
+Disallow: /shop/search*
+Disallow: /shops*
+Disallow: /event/*
+Disallow: /events/*
+Disallow: /my-account*
+Disallow: /signin?
+Disallow: /signin/order-lookup
+Disallow: /s/*/write-review*
+Disallow: /track*
+Disallow: *filterByCalfWidth*
+Disallow: *filterByApplicationArea*
+Disallow: *filterByFormulation*
+Disallow: *filterByCoverage*
+Disallow: *filterByFinish*
+Disallow: *filterByHairType*
+Disallow: *filterByIngredientConcern*
+Disallow: *filterBySpf*
+Disallow: *filterByIngredientPreference*
+Disallow: *filterByBenefits*
+Disallow: *filterBySupportLevel*
+Disallow: *filterByHairThickness*
+Disallow: *filterByFaceShape*
+Disallow: *filterByLensWidth*
+Disallow: *filterByTargetArea*
+Disallow: *filterByCaseDiameter*
+Disallow: *filterByFabricCare*
+Disallow: *filterBySurface*
+Disallow: *filterBySkinType*
+Disallow: *filterByBagSize*
+Disallow: *filterByCaseShape*
+Disallow: *filterByClosure*
+Disallow: *filterByDisplayType*
+Disallow: *filterByLensTreatment*
+Disallow: *filterByToyType*
+Disallow: /*filterByProductType
+Allow: /brands/*filterByProductType
+Disallow: *filterByGenderAge*
+
+Allow: /events/men
+Allow: /events/women
+Allow: /events/kids
+Allow: /events/home
+Allow: /events/beauty
+Allow: /events/all
+
+Sitemap: https://www.nordstromrack.com/sitemap.xml

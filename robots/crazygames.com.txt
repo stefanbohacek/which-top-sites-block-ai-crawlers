@@ -1,0 +1,9 @@
+User-agent: * 
+Disallow: /u/
+Disallow: /uid/
+
+User-agent: SemrushBot
+*
+Crawl-delay: 2
+
+Sitemap: https://www.crazygames.com/sitemap

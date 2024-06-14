@@ -1,0 +1,37 @@
+# robots.txt for https://www.tacobell.com
+User-agent: *
+#Block access to specific groups of pages
+Disallow: /cart
+Disallow: /order/cart
+Disallow: /checkout
+Disallow: /order/checkout
+Disallow: /my-account
+Disallow: /cgi-bin
+Disallow: /search
+Disallow: /userHeaderInfo?store=*
+Disallow: /locations/store?storeID=*
+Disallow: /locations/cxo
+Disallow: /miniCart/SUBTOTAL
+Disallow: /c/getDayPartMessage
+Disallow: /taco-gifter/api
+Disallow: /menu/*
+Disallow: /checkout/orderConfirmation/*
+Disallow: /order/confirmation/*
+#Allow search crawlers to discover the sitemap
+Sitemap: https://www.tacobell.com/sitemap.xml
+#Allow hyperlocal categories
+Disallow: *?store=*
+Allow: /login
+Allow: /food?store=*
+Allow: /food/deals-and-combos?store=*
+Allow: /food/tacos?store=*
+Allow: /food/burritos?store=*
+Allow: /food/quesadillas?store=*
+Allow: /food/nachos?store=*
+Allow: /food/cravings-value-menu?store=*
+Allow: /food/sides-sweets?store=*
+Allow: /food/drinks?store=*
+Allow: /food/power-menu?store=*
+Allow: /food/party-packs?store=*
+Allow: /food/vegetarian?store=*
+Allow: /food/breakfast?store=*

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /mobile/
+Disallow: /custom-package/
+Disallow: /profile/
+Disallow: /images/cmsuploads/gallery/
+Disallow: /rest/content/getWeather*
+Disallow: /*/NaN

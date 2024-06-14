@@ -1,0 +1,22 @@
+User-Agent: *
+
+Disallow: /*/users/
+
+Disallow: /users/*
+
+Disallow: /*/translators
+
+Disallow: /portal/*
+
+Disallow: /promo/*
+
+Disallow: /lead
+
+Disallow: /order
+Disallow: /order/*
+
+Disallow: /human_translations/*
+
+Disallow: /humix/
+
+Sitemap: https://www.translate.com/sitemaps/sitemap-index.xml

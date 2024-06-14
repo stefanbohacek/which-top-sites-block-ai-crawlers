@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /bc/
+
+User-agent: Twitterbot
+Allow: /bc/*
+
+User-agent: facebookexternalhit
+Allow: /bc/*
+
+User-agent: GPTBot
+Disallow: /

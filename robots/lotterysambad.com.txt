@@ -1,0 +1,4 @@
+User-Agent: *              
+Allow: /
+Disallow: /new
+Sitemap: https://www.lotterysambad.com/sitemap.xml

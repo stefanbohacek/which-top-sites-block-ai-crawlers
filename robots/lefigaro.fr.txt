@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /async/
+Disallow: /*?noheader*
+Disallow: /*?*&noheader*
+Disallow: /*?sfdebug*
+Disallow: /*?*&sfdebug*
+Disallow: /brouillon/
+Disallow: /proxy/
+Disallow: /synsearch/
+
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/articles.xml
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/sections.xml
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/topics.xml
+Sitemap: https://www.lefigaro.fr/sitemap_news.xml
+Sitemap: https://www.lefigaro.fr/elections/resultats/sitemap.xml
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /

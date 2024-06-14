@@ -1,0 +1,35 @@
+User-agent: *
+
+Disallow: /blog/*?sa=*
+Disallow: /*/api/*
+Disallow: /*=PmSystem.pm_st_my_account*
+Disallow: /*?ModPagespeed=noscript*
+Disallow: /*?modpagespeed=noscript*
+Disallow: /*?utm_source=*
+Disallow: /*?replytocom=*
+Disallow: /*?preview_id=*
+Disallow: /*split(' ').join('-')}}/rates*
+Disallow: /*?data=*
+Disallow: /*pm_st_google_plus_url_url*
+Disallow: /*?fb_comment_id=*
+Disallow: /blog/?p=*
+Disallow: /*FULL_RATE_CARD_PAGE*
+Disallow: /*?searchText=*
+Disallow: /?ref=*
+Disallow: /?aff=*
+Disallow: /*LowerCase().split*
+Disallow: /api/*
+Disallow: /*/m/*
+Disallow: /*?adlt=strict*
+Disallow: /currencyExchange.htm?cityCode=*
+Disallow: /get*php?curr_code=*
+Disallow: /currencyPage.htm?currCode=*
+Disallow: /*/?_x_tr_sl=*
+Disallow: /?u=*
+Disallow: /?wap=*source=*
+Disallow: /*/?brk=*
+Disallow: /?forgot-email_phone=*
+Disallow: /search?q=*
+Disallow: /blog/stickybanner/*
+Disallow: /blog/toc/*
+Sitemap: https://www.bookmyforex.com/sitemap.xml

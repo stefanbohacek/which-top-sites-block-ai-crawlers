@@ -1,0 +1,46 @@
+User-agent: *                                                           
+Disallow: /vehicle/
+Disallow: /*partner=
+Disallow: /*partnerCode
+Disallow: /*compcode=
+Disallow: /*vin=
+Disallow: /*VIN=
+Disallow: /*report=
+Disallow: /*source=
+Disallow: /*cmp=
+Disallow: /*email=
+Disallow: /*?_branch_view_id=
+Disallow: /bbg/
+Disallow: /pdf/
+Disallow: /contact/
+Disallow: /manifest/
+Disallow: /warranty/
+Disallow: /DP_Rpt_links/
+Disallow: /DP_Rpt_Links/
+Disallow: /MbgRefund/
+Disallow: /phoenix/
+Disallow: /myid/
+Disallow: /car-dealer/api
+Disallow: /Definitions/
+Disallow: /dealers/
+Disallow: /dealerinventory/
+Disallow: /api/
+Disallow: /consumer-api-gateway/
+Disallow: /icr-form/
+Disallow: /cfm/
+Disallow: /VehicleHistory/
+Disallow: /rate-car/?*
+Disallow: /auto-repair-shops/
+Disallow: /signin*	#sign in for mycarfax
+Disallow: /signup*	#sign up for mycarfax
+Disallow: /forgot-password*	#for mycarfax
+Disallow: /?wordfence*
+Disallow: /directions/
+Disallow: /viewCustomerReport.do?*
+Disallow: /knowledge/
+Disallow: /sortOrder/
+Disallow: /vrs
+Disallow: /arsapi/
+Disallow: /sign-up/
+Disallow: /fsb/
+Disallow: /viewEmailReport.do*

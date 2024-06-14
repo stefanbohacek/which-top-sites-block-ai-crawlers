@@ -1,0 +1,25 @@
+User-agent: GPTBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot 
+Disallow: /
+
+User-agent: *
+Allow: /.well-known/amphtml/apikey.pub
+Disallow: /blocked.html
+Disallow: /entertainment/bollywood/poonam-pandey-sami-nude-pics
+Disallow: /static-ad/home
+Disallow: /ucv1/
+Disallow: /ajax/
+Disallow: /cdn-cgi/
+Disallow: /sports/parimatch-betting-five-qualities-of-modern-betting-all-you-need-to-know
+Disallow: /lifestyle/kapiva-himalayan-shilajit-from-18000-feet-himalaya-for-good-physical-and-mental-health
+Disallow: /tags/betting
+Disallow: /channels/amp_downloads*
+Disallow: /tags/sex*
+Disallow: /games/*
+
+Sitemap: https://www.amarujala.com/sitemap.xml
+Sitemap: https://www.amarujala.com/sitemap-news-v1.xml
+Sitemap: https://www.amarujala.com/sitemap/sitemap-index.xml

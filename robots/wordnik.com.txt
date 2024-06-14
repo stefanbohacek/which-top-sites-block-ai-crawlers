@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /fragments/twitter
+Sitemap: http://sitemaps.wordnik.com/wordnikSitemapIndex.xml

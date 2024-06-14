@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /embed/
+
+User-agent: *
+Allow: /
+Disallow: /embed/
+
+Sitemap: https://ssyoutube.com/sitemap.xml
+Host: https://ssyoutube.com/

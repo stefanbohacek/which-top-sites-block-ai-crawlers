@@ -1,0 +1,64 @@
+# Disallow some specific routes we don't want indexed,
+# with some exceptions allowed.
+User-agent: *
+Disallow: /CreditCardDetailAJAX
+Disallow: /compareajax
+Disallow: /blog/credit-card-reviews
+Disallow: /blog/navbar-reviews
+Disallow: /blog/versus-comments
+Disallow: /blog/store-discount-reviews
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+Disallow: /structured-content-renderer
+Disallow: /uk/block-ad/*
+Disallow: /uk/more-info*
+Disallow: /uk/more-info/*
+Disallow: /uk/more-info-loans/*
+Disallow: /uk/get-deal/*
+Disallow: /uk/get-quote/*
+Disallow: /uk/get-quote*
+Disallow: /uk/get-a-quote/*
+Disallow: /uk/get-a-quote*
+Disallow: /uk/find-out-more/*
+Disallow: /uk/find-out-more*
+Disallow: /uk/apply-now/*
+Disallow: /uk/apply-now*
+Disallow: /uk/mortgages/out/* 
+Disallow: /uk/mortgages/search* 
+Disallow: /uk/iframes/* 
+Disallow: /uk/cookieconsent*
+Disallow: /uk/temporarily-unavailable
+Disallow: /uk/temporarily-unavailable/
+Disallow: /uk/zazzle/*
+Disallow: /uk/tags/*
+Disallow: /search/*
+Disallow: /uk/wp-admin/
+
+Allow: /api/nts/v1/login*
+Allow: /blog/wp-content/themes/nerdwallet
+Allow: /blog/wp-content/plugins/js_composer
+Allow: /blog/wp-content/plugins/infogram
+Allow: /blog/wp-content/plugins/calculated-fields-form
+Allow: /blog/wp-content/mu-plugins
+
+
+Disallow: /ab-taproom-api/
+Disallow: /api/
+Disallow: /cc-prequal-service/
+Disallow: /identity/
+Disallow: /janitor/
+Disallow: /userops-dashboard/
+Disallow: /au/wp-admin/
+Disallow: /ca/wp-admin/
+# Disallow duggmirror from everything (does anyone know why?).
+User-agent: duggmirror
+Disallow: /
+
+Sitemap: https://www.nerdwallet.com/blog/wp-sitemap.xml
+Sitemap: https://www.nerdwallet.com/uk/sitemap.xml
+Sitemap: https://www.nerdwallet.com/ca/sitemap.xml
+Sitemap: https://www.nerdwallet.com/blog/wp-sitemap-news-articles-1.xml
+Sitemap: https://www.nerdwallet.com/au/sitemap.xml

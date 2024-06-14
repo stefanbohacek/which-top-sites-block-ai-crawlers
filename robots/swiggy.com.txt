@@ -1,0 +1,183 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <title>
+      Order food online from India's best food delivery service. Order from
+      restaurants near you
+    </title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
+    <style type="text/css">
+      .GenericError__container {
+        min-height: calc(100vh - 229px);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+      .GenericError__content {
+        text-align: center;
+        width: 430px;
+        line-height: 1.25;
+        padding: 80px 0;
+      }
+      
+      .GenericError__title {
+        color: #282c3f;
+        font-size: 32px;
+        font-weight: 600;
+        margin: 35px 0 14px;
+      }
+      .GenericError__description {
+        color: #686b78;
+        font-size: 16px;
+      }
+      .GenericNotFound__btn {
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: 0;
+        color: #fff;
+        background-color: #fc8019;
+        line-height: 40px;
+        padding: 0 20px;
+        margin-top: 25px;
+        font-weight: 600;
+      }
+    </style>
+    <script>
+      function recordNREvent(event) {
+        try {
+          fetch(
+            "https://insights-collector.newrelic.com/v1/accounts/737486/events",
+            {
+              method: "POST",
+              mode: "cors",
+              headers: {
+                "X-Insert-Key": "CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk",
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(event),
+            }
+          ).then((res) => res.json());
+        } catch (err) {
+          console.error(err);
+        }
+      }
+
+    function fallbackLogToNewRelic() {
+        recordNREvent({
+            eventType: "swiggy_com_load_error",
+            url: window.location.href,
+            host: window.location.host,
+            time: Date.now(),
+            userAgent: window.navigator.userAgent,
+        });
+    }
+
+    function initFetchSwiggyHeadersAndLogToNR() {
+        try {
+            var getSwiggyHeadersReq = {
+                type: "GET_SWIGGY_HEADERS",
+                requestId: "1",
+                payload: {},
+            };
+            if(void 0 !== window.AndroidBridge && void 0 !== window.AndroidBridge.nativeRequest) {
+                window.AndroidBridge.nativeRequest(
+                    JSON.stringify(getSwiggyHeadersReq)
+                );
+            } else if(void 0 !== window.webkit && void 0 !== window.webkit.messageHandlers && void 0 !== window.webkit.messageHandlers.nativeRequest) {
+                window.webkit.messageHandlers.nativeRequest.postMessage({
+                    message: JSON.stringify(getSwiggyHeadersReq),
+                });
+            } else {
+                fallbackLogToNewRelic();
+            }
+            window.nativeResponse = function(response){
+                try {
+                    var payload = JSON.parse(response.payload);
+                    if(window.__allowNrLogger__) {
+                        recordNREvent({
+                            eventType: "swiggy_com_load_error",
+                            url: window.location.href,
+                            host: window.location.host,
+                            time: Date.now(),
+                            userAgent: window.navigator.userAgent,
+                            userId: payload && payload.userId ? payload.userId : "",
+                            deviceId: payload && payload.deviceId ? payload.deviceId : "",
+                            platform: payload && payload.platform ? payload.platform : "",
+                            tid: payload && payload.tid ? payload.tid : "",
+                            sid: payload && payload.sid ? payload.sid : "",
+                            versionCode: payload && payload["version-code"] ? payload["version-code"] : "",
+                        });
+                        window.__allowNrLogger__ = false;
+                    }
+                } catch(_err) {
+                    fallbackLogToNewRelic();
+                }
+            }
+        } catch(_err) {
+            fallbackLogToNewRelic();
+        }
+    }
+
+      window.onload = function () {
+        window.__allowNrLogger__ = true;
+        try {
+            initFetchSwiggyHeadersAndLogToNR();
+        } catch(_err) {
+            fallbackLogToNewRelic();
+        }
+      };
+
+
+      window.exit = function () {
+        var closeWebviewReq = {
+          type: "CLOSE_WEBVIEW",
+          requestId: "1",
+          payload: {},
+        };
+
+        void 0 !== window.AndroidBridge &&
+        void 0 !== window.AndroidBridge.nativeRequest
+          ? window.AndroidBridge.nativeRequest(JSON.stringify(closeWebviewReq))
+          : void 0 !== window.Android && void 0 !== window.Android.exit
+          ? window.Android.exit()
+          : void 0 !== window.webkit && void 0 !== window.webkit.messageHandlers
+          ? void 0 !== window.webkit.messageHandlers.nativeRequest
+            ? window.webkit.messageHandlers.nativeRequest.postMessage({
+                message: JSON.stringify(closeWebviewReq),
+              })
+            : window.webkit.messageHandlers.exitDashWeb &&
+              window.webkit.messageHandlers.exitDashWeb.postMessage({})
+          : (window.location.href = "/");
+      };
+    </script>
+  </head>
+
+  <body>
+    <div id="root" style="height: 100%">
+      <div class="GenericError__container">
+        <div class="GenericError__content">
+          <div class="GenericError__image"></div>
+          <div class="GenericError__title">We'll be back shortly</div>
+          <div class="GenericError__description">
+            We are fixing a temporary glitch. Sorry for the inconvenience.
+          </div>
+          <a class="GenericNotFound__btn" href="javascript:exit()">Go Back</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

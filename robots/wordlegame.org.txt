@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://wordlegame.org/sitemap.xml

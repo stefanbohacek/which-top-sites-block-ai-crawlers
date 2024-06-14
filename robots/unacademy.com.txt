@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /health/
+Disallow: /health
+Disallow: /search/
+Disallow: /search
+Disallow: /learner/
+Disallow: /learner
+Disallow: /embed/
+Disallow: /embed
+Disallow: /educator
+Disallow: /subscribe/thank-you
+Disallow: /scholarship/school/UNSAT
+Allow: /

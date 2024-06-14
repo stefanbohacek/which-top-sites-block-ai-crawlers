@@ -1,0 +1,109 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: ICC-Crawler 
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Orthogaffe
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: Xenu
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: rogerbot
+Allow: /Portale/
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-Agent: *
+Disallow: /Portale/
+Disallow: /vocabolario/tag/
+Disallow: *?gclid=*$
+Disallow: /enciclopedia/ricerca/
+Disallow: /enciclopedia/dettaglio-immagini/
+Disallow: /ext-tool/
+Disallow: *?pubblica=1$
+Disallow: *?stampa=1$
+Disallow: *%(link
+Disallow: *?ovo_video=
+Disallow: *?nt=1$
+Disallow: /user/
+Disallow: /vocabolario/ricerca/*?loc=ko
+Disallow: /vocabolario/ricerca/*QQ
+Disallow: /vocabolario/ricerca/*▼
+Disallow: /vocabolario/ricerca/*▲
+Disallow: /vocabolario/ricerca/*量
+Disallow: /vocabolario/ricerca/*哪
+Disallow: /vocabolario/ricerca/*上
+Disallow: /vocabolario/ricerca/*围
+Disallow: /vocabolario/ricerca/*务
+Disallow: /vocabolario/ricerca/*【
+Disallow: /vocabolario/ricerca/*《
+
+Sitemap: https://www.treccani.it/sitemap.xml
+Sitemap: https://www.treccani.it/sitemap-enciclopedia.xml
+Sitemap: https://www.treccani.it/sitemap-vocabolario.xml

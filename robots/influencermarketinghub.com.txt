@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /plugins/
+Disallow: /wp-content/plugins/
+Sitemap: https://influencermarketinghub.com/sitemap_index.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/
+
+#exclude search pages from google
+User-agent: Googlebot
+Disallow: /*?s=
+Disallow: */search/*
+
+#exclude agency profile pages
+User-agent: *
+Disallow: /agency/profile/*

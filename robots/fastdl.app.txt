@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /cdn-cgi/
+
+Sitemap: https://fastdl.app/sitemap.xml
+Host: https://fastdl.app/

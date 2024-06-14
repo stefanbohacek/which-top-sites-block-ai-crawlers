@@ -1,0 +1,35 @@
+User-agent: *
+
+Disallow: *quizResult=
+Disallow: *.pdf
+Disallow: *globeTest_
+Disallow: *globeNoTest
+Disallow: *globeResource
+Disallow: *?kw
+Disallow: /embed?
+Disallow: /shop/
+Disallow: /authentication/
+Disallow: /newsletters/preferences/manage
+Disallow: /newsletters/preferences/unsubscribe
+Disallow: *page=
+Disallow: */node/
+Disallow: */video-tags/
+Disallow: */file/
+Disallow: */topic/
+
+User-agent: Pinterest
+Disallow:
+
+User-agent: Pinterestbot
+Disallow:
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /thmb/
+
+
+Sitemap: https://www.foodandwine.com/sitemap.xml
+
+Sitemap: https://www.foodandwine.com/google-news-sitemap.xml

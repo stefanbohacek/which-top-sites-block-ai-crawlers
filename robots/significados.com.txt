@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /backoffice/
+Sitemap: https://www.significados.com/sitemap.xml

@@ -1,0 +1,91 @@
+User-agent: GoogleBot
+Allow: */book/reservation/find/
+Allow: */search/find-hotels/
+Disallow: */search/
+Disallow: */checkin/
+Disallow: */preferred-rates/
+Disallow: */partner/
+Disallow: /*.jhtml*
+Disallow: */book/
+Disallow: */guest/
+Disallow: */auth/
+Disallow: */group-search/
+Disallow: */find-hotels/
+Disallow: */event-locations/
+Disallow: */group-locations/
+Disallow: */confirmation/
+Disallow: */personalized/
+Disallow: */attend-my-event/
+Disallow: */business/
+Disallow: */page/
+Disallow: */home/
+Disallow: */public/
+Disallow: */static_search_assets/
+Disallow: */modify/
+
+User-agent: BingBot
+Allow: */book/reservation/find/
+Allow: */search/find-hotels/
+Disallow: */search/
+Disallow: */checkin/
+Disallow: */preferred-rates/
+Disallow: */partner/
+Disallow: /*.jhtml*
+Disallow: */book/
+Disallow: */guest/
+Disallow: */auth/
+Disallow: */group-search/
+Disallow: */find-hotels/
+Disallow: */event-locations/
+Disallow: */group-locations/
+Disallow: */confirmation/
+Disallow: */personalized/
+Disallow: */attend-my-event/
+Disallow: */business/
+Disallow: */page/
+Disallow: */home/
+Disallow: */public/
+Disallow: */static_search_assets/
+Disallow: */modify/
+
+User-agent: AdIdxBot
+Allow: */search/
+
+User-agent: Mediapartners-Google
+Allow: */search/
+Allow: */book/
+
+User-agent: AdsBot-Google-Mobile
+Allow: */search/
+Allow: */book/
+
+User-agent: AdsBot-Google
+Allow: */search/
+Allow: */book/
+
+User-agent: *
+Disallow: */search/
+Disallow: */checkin/
+Disallow: */preferred-rates/
+Disallow: */partner/
+Disallow: /*.jhtml*
+Disallow: */book/
+Disallow: */guest/
+Disallow: */auth/
+Disallow: */group-search/
+Disallow: */find-hotels/
+Disallow: */event-locations/
+Disallow: */group-locations/
+Disallow: */confirmation/
+Disallow: */personalized/
+Disallow: */attend-my-event/
+Disallow: */business/
+Disallow: */public/
+Disallow: */page/
+Disallow: */home/
+Disallow: */static_search_assets/
+Disallow: */modify/
+
+User-agent: null
+Sitemap: https://www.hilton.com/sitemap.xml
+

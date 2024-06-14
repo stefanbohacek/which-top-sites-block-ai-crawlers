@@ -1,0 +1,74 @@
+# Filename:robots.txt file for https://www.shiksha.com/
+
+User-agent: *
+Disallow:/11110051/
+Disallow:/*?rf=filters*
+Disallow:/*?sort_by=*
+Disallow:/instituteCtaPdf/
+Disallow:/*?city=*
+Disallow:/*?ss[]=*
+Disallow:/*?courseId=*
+Disallow:/*?scrollTo=*
+Disallow:/?pn=*
+Disallow:*-snaplisting-*
+Disallow:/rate-my-chances-in-*-rmc-*
+Disallow:*/getMediaForAbroadListing/
+Disallow:/beacon/
+Disallow:/trackinggateway/trackingApi/
+Disallow:/analytics/
+Disallow:/AskAQuestion/
+Disallow:/public/conversion/
+Disallow:/MultipleApply/
+Disallow:/FloatingRegistration/
+Disallow:/stats/
+Disallow:/lms/
+Disallow:/listing/Listing/getDetailsForListingNaukriShiksha
+Disallow:/mysql_pulsechck/
+Disallow: /scholarship/
+Allow: /mediadata/images/
+Disallow: /mediadata/
+Disallow:/0003003/
+Disallow:/0011006/
+Disallow:/0011007/
+Disallow:/0000003/
+Disallow:/0010004/
+Disallow:/getUserProfile/
+Disallow:/*showScholarshipsList
+Disallow:/*campus-representatives-discussions
+Disallow:/getDataForAnAWidget/
+Disallow:/secCodeForReg
+Disallow:/similar-institutes*
+Disallow:*/getAbroadRecommendations/
+Disallow:/listing/ListingPage/onlineFormWidget*
+Disallow:/resources/colleges-shortlisting
+Disallow:/events/Events/
+Disallow:/MobileBeacon/mobilebeacon/
+Disallow:/mcommon5/MobileSiteHamburgerV2/ampAuthorization
+Disallow:/om.php
+Disallow:/j2.php
+Disallow:/*?sd[]=*
+Disallow:/*?uaf[]=*
+Disallow:/*?refCourseId=*
+Disallow:/*?course=*
+Disallow:/*?showDepts=*
+Disallow:/*?s[]=*
+Disallow:/*?sp[]=*
+Disallow:/*?i[]=*
+Disallow:/*?bc[]=*
+Disallow:/*?fe[]=*
+Disallow:/*?sb[]=*
+Disallow:/*?st[]=*
+Disallow:/*?ct[]=*
+Disallow:/*?ex[]=*
+Disallow:/*?mo[]=*
+Disallow:/*?id[]=*
+Disallow:/*?cr[]=*
+Disallow:/*?sby=*
+Disallow:/*?rf=*
+Disallow:/*?sc=*
+Disallow:/*?moreoptions=*
+Disallow:/*?sortby=*
+
+Sitemap: https://www.shiksha.com/NewsIndex1.xml
+Sitemap: https://www.shiksha.com/updates.xml
+Sitemap: https://www.shiksha.com/sitemap_index.xml

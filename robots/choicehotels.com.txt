@@ -1,0 +1,67 @@
+#  ______     __  __     ______     __     ______     ______        __  __     ______     ______   ______     __         ______    
+# /\  ___\   /\ \_\ \   /\  __ \   /\ \   /\  ___\   /\  ___\      /\ \_\ \   /\  __ \   /\__  _\ /\  ___\   /\ \       /\  ___\   
+# \ \ \____  \ \  __ \  \ \ \/\ \  \ \ \  \ \ \____  \ \  __\      \ \  __ \  \ \ \/\ \  \/_/\ \/ \ \  __\   \ \ \____  \ \___  \  
+#  \ \_____\  \ \_\ \_\  \ \_____\  \ \_\  \ \_____\  \ \_____\     \ \_\ \_\  \ \_____\    \ \_\  \ \_____\  \ \_____\  \/\_____\ 
+#   \/_____/   \/_/\/_/   \/_____/   \/_/   \/_____/   \/_____/      \/_/\/_/   \/_____/     \/_/   \/_____/   \/_____/   \/_____/ 
+#
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: google-hoteladsverifier
+Disallow: /hotelmedia
+
+User-Agent: AdsBot-Google
+Allow: /
+
+User-agent: *
+Disallow: /confirmation
+Disallow: /guestdata
+Disallow: /modify/
+Disallow: /earn-points/gift-card-
+Disallow: /earn-points/triple-points-
+Disallow: /earn-points/free-night-rewards-
+Disallow: /earn-points/rewards-now-
+Disallow: /rates
+Disallow: /reservations
+Allow: /reservations/online-cancellation
+Disallow: /*?*brand=
+Disallow: /*?*amenity=
+Disallow: /es-us/es-us/
+Disallow: /fr-us/fr-us/
+Disallow: /promo/thankyou
+Disallow: /secret-site
+Disallow: /es-us/*/hotel-reviews/
+Disallow: /fr-us/*/hotel-reviews/
+Disallow: /choice-privileges/promo/2179
+Disallow: /choice-privileges/promo/thankyou/2179
+Disallow: /choice-privileges/promo/4196
+Disallow: /sleep-inn/advance-purchase-2019
+Disallow: /mainstay/advance-purchase-2019
+Disallow: /quality-inn/advance-purchase-2019
+Disallow: /clarion/advance-purchase-2019
+Disallow: /about/browswer-crash-incident
+Disallow: /en-es
+Disallow: /es-es
+Disallow: /arizona-1
+Disallow: /choice-privileges/cedar-fair-season-pass
+Disallow: /en-ca/choice-privileges/iata-agent-experience
+Disallow: /fr-ca/choice-privileges/iata-agent-experience
+Disallow: /choice-privileges/mobile-check-in
+Disallow: /en-ca/groups/team-snap-offer
+Disallow: /fr-ca/groups/team-snap-offer
+Disallow: /choice-privileges/rewards-exchange-choice
+Disallow: /en-ca/deals/corporate-travel
+Disallow: /fr-ca/deals/corporate-travel
+Disallow: /groups/sports-travel/hotel-discounts
+Disallow: /ascend/bluegreen-vacations/cardholder-offer
+Disallow: /ascend/bluegreen-vacations/select-cardholder-offer
+Disallow: /choice-privileges/double-your-extras
+Disallow: /50giftcard
+
+User-agent: *
+Crawl-delay: 5
+
+Sitemap: https://www.choicehotels.com/sitemapindex.xml
+
+#Last updated November 30, 2022

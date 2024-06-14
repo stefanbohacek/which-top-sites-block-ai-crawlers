@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /inc/
+Disallow: /smile/
+Disallow: /images/
+Disallow: /vip_files/
+Disallow: /*?cid=
+Disallow: /*?start=
+Disallow: /*?page=
+Sitemap: https://sattaking-up.com/sitemap.xml

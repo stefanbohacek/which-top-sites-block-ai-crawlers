@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /search
+Disallow: /outlook-spotlight/
+Disallow: /business-spotlight/
+Disallow: /health-spotlight/
+Disallow: /topic/outlook-spotlight
+Disallow: /topic/business-spotlight
+
+Sitemap: https://www.outlookindia.com/sitemap.xml
+Sitemap: https://www.outlookindia.com/news_sitemap.xml

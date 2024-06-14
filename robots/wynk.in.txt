@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+Disallow: /music/settings
+Disallow: /music/about-us
+Disallow: /music/terms-of-use
+Disallow: /tos
+Disallow: /terms
+Disallow: /tnc
+Disallow: /faq
+Disallow: /music/payment/
+Disallow: /u/
+Disallow: /music/detailsearch/
+Disallow: /music/packagesearch/
+Disallow: /webview
+Disallow: /integrate
+Disallow: /music/activate/
+Disallow: *?page=0
+Disallow: *?q=
+Disallow: */artist
+Allow: */artist/*/*
+Disallow: */srch
+Disallow: */your-personalised-mixes
+
+Sitemap: https://wynk.in/sitemap/index.xml

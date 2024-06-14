@@ -1,0 +1,86 @@
+User-agent: *
+Allow: /
+Disallow: /xml/
+Disallow: /charts/
+Disallow: /includes/
+Disallow: /temp/
+Disallow: /amphtml/temp/
+Disallow: /for-language-versions/
+Disallow: /src/
+Disallow: /servlet/
+Disallow: /scripts/
+Disallow: /companyinfo/
+Disallow: /quotes/
+Disallow: /company/*/PARENT_DOMAIN_NAMEcompany/
+Disallow: /mutualfund/
+Disallow: /mutual-funds/*/FILE_MFSCHEMESNAPSHOT/
+Disallow: /*?utm*
+Disallow: /*?ref*
+Disallow: /videos/amphtml/
+Disallow: /videos/amphtml/*
+Disallow: /videos/search-videos/
+Disallow: /videos/homepagewidget/*
+Disallow: /videos/tagfeeds/*
+Disallow: /videos/locationfeeds_es/*
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+Disallow: /partner-content/
+Disallow: /*-rate*
+Disallow: /*-price*
+Disallow: /company/
+Disallow: /mutual-funds/
+Disallow: /*pin-code*
+Disallow: /csc-*
+Disallow: /saving-schemes.html
+Disallow: /*-sschm*
+Disallow: /*-sschmaid*
+Disallow: /payment-apps-and-e-wallets.html
+Disallow: /*-ewlt*
+Disallow: /*-ewtaid*
+Disallow: /fastag.html
+Disallow: /*-fastag-ft*
+Disallow: /*-ftcid*
+Disallow: /toll-plaza.html
+Disallow: /*-toll-plaza-list-s*
+Disallow: /*-toll-plaza-tp*
+Disallow: /*-tplid*
+Disallow: /cng-pump.html
+Disallow: /cng-pump-in-*
+Disallow: /*-cngsid*
+Disallow: /stocks/
+Disallow: /gainers-losers*
+Disallow: /bse/
+Disallow: /nse/
+Disallow: /global-indices.html
+Disallow: /ipo/
+Disallow: /bulk-deals.html
+Disallow: /ifsc-code/
+Disallow: /currency/
+Disallow: /*-holidays*
+Disallow: /*calculator*
+Disallow: /*interest-rates*
+Disallow: /jewellers.html
+Disallow: /*-jwl*
+Disallow: /aadhar-card*
+Disallow: /*-acecid*
+Disallow: /pan-card*
+Disallow: /*-pancid*
+Disallow: /*billionaire*
+Disallow: /*richest*
+Disallow: /*-blnr*
+
+User-agent: grapeshot
+Disallow:
+
+Sitemap: https://www.goodreturns.in/sitemap_news.xml
+Sitemap: https://www.goodreturns.in/sitemap-latest.xml
+Sitemap: https://www.goodreturns.in/sitemap_index.xml
+Sitemap: https://www.goodreturns.in/sitemap/mf_sitemap_index.xml
+Sitemap: https://www.goodreturns.in/sitemap-videos-index.xml
+
+

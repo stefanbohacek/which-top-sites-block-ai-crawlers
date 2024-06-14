@@ -1,0 +1,30 @@
+User-agent: *
+
+Disallow: /viewprogram/*_pnt
+Disallow: /druginfo/monoinfobyid*
+Disallow: /cp/*
+Disallow: /memberprofile/*
+Disallow: /noscan/
+Disallow: /*/noscan/
+Disallow: /viewarticle*_print
+Disallow: /viewarticle*_reference
+Disallow: /s/
+Disallow: /index/*&aspen 
+Disallow: /index/*&d2Previous
+
+Sitemap: https://www.medscape.com/sitemap_index.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: / 
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: SeekportBot
+Crawl-delay: 2

@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+Disallow: /topic/*
+Disallow: /prnewswire/
+Disallow: /sitetakeoverad
+Disallow: /visualstories/preview.php?*
+
+User-agent: Googlebot-News
+Disallow: /impact-feature/
+Disallow: /visualstories/preview.php?*
+Disallow: /sitetakeoverad
+
+Sitemap: https://www.businesstoday.in/rssfeeds/sitemap.xml
+Sitemap: https://www.businesstoday.in/rssfeeds/news-sitemap.xml
+Sitemap: https://www.businesstoday.in/rssfeeds/date-wise-stories-sitemap.xml
+Sitemap: https://www.businesstoday.in/visualstories/webstories-sitemap.xml
+
+User-agent: CCBot
+Disallow: /

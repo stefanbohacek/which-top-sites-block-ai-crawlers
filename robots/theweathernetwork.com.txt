@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /guid
+Disallow: /serverSetCookie
+
+User-agent: GPTBot
+Disallow: /

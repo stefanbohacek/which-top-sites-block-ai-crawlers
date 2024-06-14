@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /search
+Disallow: /archive/
+Disallow: /cdn-cgi/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Disallow: /*?page=[0-9][0-9]
+Disallow: /*?page=[0-9][0-9][0-9]
+Disallow: /*?page=[0-9][0-9][0-9][0-9]
+Allow: /*?page=[0-9]
+
+Sitemap: https://mashable.com/sitemap-index.xml
+Sitemap: https://mashable.com/sitemap-news-0.xml

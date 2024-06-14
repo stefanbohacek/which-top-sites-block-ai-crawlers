@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /2/
+
+Sitemap: https://concepto.de/sitemaps.xml

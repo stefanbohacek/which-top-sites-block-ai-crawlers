@@ -1,0 +1,15 @@
+anthropic-ai
+Applebot-Extended 
+Bytespider
+CCBot
+ChatGPT-User
+ClaudeBot 
+cohere-ai
+Diffbot
+FacebookBot
+Google-Extended
+GPTBot
+ImagesiftBot 
+Omgili
+Omgilibot
+PerplexityBot

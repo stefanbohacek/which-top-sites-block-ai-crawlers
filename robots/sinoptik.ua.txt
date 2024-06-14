@@ -1,0 +1,53 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-Agent: dotbot
+Crawl-delay:120
+Disallow: /redirector/
+Disallow: /printroadweather*
+Disallow: /*/p_*
+Disallow: *?id
+Disallow: /*?iframe*
+Disallow: /_cache*
+Disallow: /rss/
+Disallow: /img/sea_weather.swf
+
+User-agent: Mail.ru
+Crawl-delay:2
+Disallow: /redirector/
+Disallow: /printroadweather*
+Disallow: /*/p_*
+Disallow: *?id
+Disallow: /*?iframe*
+Disallow: /_cache*
+Disallow: /rss/
+Disallow: /img/sea_weather.swf
+Disallow: /*/_*
+Disallow: /_*
+
+User-Agent: Slurp
+Crawl-delay:120
+Disallow: /redirector/
+Disallow: /printroadweather*
+Disallow: /*/p_*
+Disallow: *?id
+Disallow: /*?iframe*
+Disallow: /_cache*
+Disallow: /rss/
+Disallow: /img/sea_weather.swf
+
+
+User-agent: *
+Disallow: /redirector/
+Disallow: /printroadweather*
+Disallow: /*/p_*
+Disallow: *?id
+Disallow: /*?iframe*
+Disallow: /_cache*
+Disallow: /rss/
+Disallow:/pinformer.php
+Disallow: /*/_*
+Disallow: /_*
+Disallow: /img/sea_weather.swf
+Disallow: /*/______-_______
+Host:https://sinoptik.ua

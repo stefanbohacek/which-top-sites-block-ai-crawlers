@@ -1,0 +1,42 @@
+User-agent: *
+
+Disallow: /store/so-much-maple-juneau-19113/
+Disallow: /orders/
+Disallow: /orders/track/*
+Disallow: /order_history/
+Disallow: /sv/
+
+Allow: /consumer/login/
+Allow: /consumer/invite/
+Disallow: /consumer/
+
+Allow: /dasher/signup/$
+Disallow: /dasher/signup/*
+Disallow: /dasher/login*
+Disallow: /dasher/application*
+Disallow: /apply/*
+Disallow: /qr-code/*
+
+Disallow: /merchant/applyV2/*
+
+Disallow: /securitynotice
+
+Allow: *.js
+Allow: *.css
+
+Disallow: /dd/*
+Disallow: /cart/*
+Disallow: /confirm-group-cart-payment/*
+Disallow: /s/*
+
+Disallow: /caredash/*
+Disallow: /caredash-recipient/*
+
+Disallow: /product/*
+Disallow: /browse/merchants/*/products/*
+Disallow: /browse/products/*
+
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-image
+Disallow:

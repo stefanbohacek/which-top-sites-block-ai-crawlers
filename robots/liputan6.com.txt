@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /search
+Disallow: /fimela/
+Disallow: */comment/
+Disallow: /ucnews/
+Disallow: /properti/
+Disallow: /widgets-nocache/analytics_page_request/*
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: */livestreaming/
+Disallow: /articles/preview
+Disallow: /gallery/
+Disallow: */indeks/*
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://www.liputan6.com/sitemap.xml

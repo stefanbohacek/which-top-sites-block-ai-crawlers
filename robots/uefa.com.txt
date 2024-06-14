@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /generic/*
+Disallow: /images/*
+Disallow: /libraries/*
+Disallow: /thirdparties/*
+Disallow: /test/*
+Disallow: /*/_content
+Disallow: /disciplinary/*
+
+Sitemap: https://www.uefa.com/sitemap.xml
+Sitemap: https://www.uefa.com/sitemap/news/latest.xml
+Sitemap: https://www.uefa.com/sitemap/news/index.xml
+Sitemap: https://www.uefa.com/sitemap/video/index.xml
+Sitemap: https://www.uefa.com/sitemap/document/index.xml
+Sitemap: https://www.uefa.com/sitemap/matches/index.xml

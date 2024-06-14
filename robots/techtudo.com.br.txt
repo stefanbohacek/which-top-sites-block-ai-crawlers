@@ -1,0 +1,27 @@
+#
+# robots.txt
+#
+
+User-Agent: *
+Disallow: /_/
+Disallow: /noticia-beta/
+Disallow: *globo-cdn-src/*
+Disallow: /busca/
+Disallow: /beta/
+
+# Sitemap
+Sitemap: https://www.techtudo.com.br/sitemap/techtudo/sitemap.xml
+Sitemap: https://www.techtudo.com.br/sitemap/techtudo/news.xml
+Sitemap: https://www.techtudo.com.br/sitemap/home/techtudo/sitemap.xml
+Sitemap: https://www.techtudo.com.br/sitemap/topic/techtudo/sitemap.xml
+Sitemap: https://www.techtudo.com.br/sitemap/videos/techtudo/sitemap.xml
+Sitemap: https://www.techtudo.com.br/sitemap/last-news.xml
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /

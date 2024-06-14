@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /blog/tag/*
+Disallow: /blog/category/*
+Disallow: /school/tag/*
+Disallow: /school/category/*
+
+Sitemap: https://www.careerpower.in/sitemap.xml
+Sitemap: https://www.careerpower.in/blog/sitemap.xml
+Sitemap: https://www.careerpower.in/school/sitemap.xml

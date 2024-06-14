@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /search/
+Disallow: /archive/
+Disallow: /otc/
+Disallow: /api/
+Disallow: /cdn-cgi/
+Disallow: /*?page=[0-9][0-9]
+Disallow: /*?page=[0-9][0-9][0-9]
+Disallow: /*?page=[0-9][0-9][0-9][0-9]
+Allow: /*?page=[0-9]
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://www.pcmag.com/sitemap-index.xml
+Sitemap: https://www.pcmag.com/sitemap-google-news.xml

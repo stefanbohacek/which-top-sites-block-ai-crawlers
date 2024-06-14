@@ -1,0 +1,18 @@
+Sitemap: https://www.flashscore.com/sitemap.xml
+
+User-agent: *
+Disallow: /standings/
+Disallow: /draw/
+Disallow: /newsfeed/
+Disallow: /match/
+Disallow: */x/js/browsercompatibility*.js
+
+User-agent: SmartViper
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /standings/
+Disallow: /draw/
+Disallow: /x/
+Allow: /match/
+

@@ -1,0 +1,18 @@
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /quote.php
+Disallow: /cgi-bin/
+Disallow: https://sattamatkarest.rest/quote.php
+Disallow: https://sattamatkarest.rest/satta-100%-fix.html
+Disallow: https://sattamatkarest.rest/100%-fix-panna-chart.html
+Disallow: https://sattamatkarest.rest/100%-fix-ank.html
+Disallow: https://sattamatkarest.rest/guessing-forum/quote.php
+Sitemap: https://sattamatkarest.rest/sitemap/sitemap.xml

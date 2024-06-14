@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /_libraries
+Disallow: /_mobileapp
+Disallow: /_test-automation
+Disallow: /*/_libraries
+Disallow: /*/*/_libraries
+Disallow: /media-zone

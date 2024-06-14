@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Disallow: /backoffice/
+Sitemap: https://www.dicio.com.br/sitemap.xml

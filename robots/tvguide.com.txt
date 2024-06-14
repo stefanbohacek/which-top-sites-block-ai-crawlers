@@ -1,0 +1,16 @@
+User-agent: GPTBot
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: *
+Disallow: /user/
+Disallow: /watchlist/
+Disallow: /s/
+Disallow: /rss/
+
+Sitemap: https://www.tvguide.com/news/latest.xml
+Sitemap: https://www.tvguide.com/news/index.xml
+Sitemap: https://www.tvguide.com/galleries/index.xml
+Sitemap: https://www.tvguide.com/celebrities.xml
+Sitemap: https://www.tvguide.com/movies.xml
+Sitemap: https://www.tvguide.com/tvshows.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/*
+Disallow: /health
+Disallow: /probe*
+Host: https://www.livescores.com
+Sitemap: https://www.livescores.com/sitemap.xml

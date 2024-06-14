@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /testfiles/
+Disallow: /8323530/
+
+User-agent: Twitterbot
+Allow: /
+Disallow: /speedtest
+
+User-agent: Adsbot-Google
+Disallow: /testfiles/
+
+User-agent: Googlebot-Video
+Disallow: /search-video/
+Disallow: /testfiles/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBots
+Disallow: /
+
+User-agent: AhrefsSiteAudit
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+Sitemap: https://www.indiatvnews.com/news-sitemap.xml
+Sitemap: https://www.indiatvnews.com/sitemap.xml
+

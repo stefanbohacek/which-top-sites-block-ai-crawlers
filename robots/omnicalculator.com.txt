@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /other/travel-job-application
+Disallow: /board
+Disallow: /other/mbps-convert-to-gb

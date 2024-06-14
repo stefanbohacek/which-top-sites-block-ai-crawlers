@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /compte/*
+Disallow: /contact/*
+Disallow: /actualites/lettresp/archives/L*
+Disallow: /allo-sp/*
+Disallow: /accueil/
+Disallow: /*?xtor=
+Disallow: */recherche*
+Allow: */recherche-guidee/*.js
+Allow: /demarches-silence-vaut-accord/recherche?page=
+Disallow: */partager-par-courriel
+Disallow: /*/personnalisation

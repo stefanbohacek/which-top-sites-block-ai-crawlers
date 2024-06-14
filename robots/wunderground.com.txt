@@ -1,0 +1,27 @@
+#
+# /robots.txt
+#
+
+#
+# Last updated by VShrivastava 02/18/2020
+#
+
+# Disallowed for PhantomJS
+
+
+User-agent: *
+# Crawl-delay: 10
+
+# App paths
+Disallow: /bundle-next/
+# Directories
+
+# Files
+Disallow: /CHANGELOG.txt
+
+# Paths (clean URLs)
+# Disallow: /migration/
+
+# Paths (no clean URLs)
+
+Sitemap: https://www.wunderground.com/sitemaps/sitemap.xml

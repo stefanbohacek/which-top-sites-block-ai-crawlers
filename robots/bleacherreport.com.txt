@@ -1,0 +1,44 @@
+Sitemap: https://bleacherreport.com/sitemaps
+Sitemap: https://bleacherreport.com/sitemaps/categories/sports-index
+Sitemap: https://bleacherreport.com/sitemaps/categories/video_pages
+Sitemap: https://bleacherreport.com/sitemaps/categories/scores
+Sitemap: https://bleacherreport.com/sitemaps/google_news
+Sitemap: https://bleacherreport.com/sitemap
+User-Agent: *
+Disallow: /AAMSZ=160x600
+Disallow: /AAMSZ=300x250
+Disallow: /AAMSZ=728x90
+Disallow: /admin
+Disallow: /account
+Disallow: /accounts
+Disallow: /activities
+Disallow: /add_to_blacklist
+Disallow: /archives
+Disallow: /api
+Disallow: /bets/iframe 
+Disallow: /login
+Disallow: /long_poll
+Disallow: /new_writer
+Disallow: /newsletter_subscriptions
+Disallow: /signup
+Disallow: /users
+Disallow: /users/undefined
+Disallow: /users/ranking
+Disallow: /*/archives
+Disallow: /oembed
+Disallow: /user_post
+
+User-Agent: GPTBot
+Disallow: /
+
+User-Agent: Google-Extended
+Disallow: /
+
+User-Agent: CCBot
+Disallow: /
+
+User-Agent: FacebookBot
+Disallow: /
+
+User-Agent: anthropic-ai
+Disallow: /

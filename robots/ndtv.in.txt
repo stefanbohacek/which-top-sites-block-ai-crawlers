@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://ndtv.in/newssitemap
+Sitemap: https://ndtv.in/sitemap2024.xml
+Disallow: /video/embed-player
+
+User-agent: GPTBot
+Disallow: /

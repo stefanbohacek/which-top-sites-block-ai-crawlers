@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /stats/
+Disallow: /assets/files/
+Disallow: /search-for-tubing/heat-shrinkable-options/
+Disallow: /search-for-tubing/non-heat-shrinkable-options/
+Disallow: /search-for-tubing/no-search-nhs-options
+Disallow: /search-for-tubing/no-search-hs-options
+Disallow: /robots.txt
+Sitemap: http://www.graylineinc.com/sitemap.html
+Crawl-delay: 3

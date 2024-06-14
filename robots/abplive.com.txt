@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /search?s*
+Disallow: /search/page-*
+Disallow: /abp-widget/
+Disallow: /adsunits/
+Disallow: /adsunits-a/
+Disallow: /adsunits-b/
+Disallow: /adsunits-c/
+
+#Sitemaps
+Sitemap: https://www.abplive.com/news-sitemap.xml
+Sitemap: https://www.abplive.com/video-sitemap.xml
+Sitemap: https://www.abplive.com/gallery-sitemap.xml
+Sitemap: https://www.abplive.com/google-news-sitemap.xml
+Sitemap: https://www.abplive.com/web-sitemap.xml
+Sitemap: https://www.abplive.com/amp-stories-sitemap.xml
+Sitemap: https://www.abplive.com/amp-stories-sitemap.xml
+Sitemap: https://www.abplive.com/shortvideo-sitemap.xml
+
+

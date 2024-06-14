@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: */help?uid*
+Disallow: */pp?uid*
+Disallow: */cc?uid*
+Disallow: */tou?uid*
+Sitemap: https://www.jiocinema.com/sitemap/index-sitemap.xml

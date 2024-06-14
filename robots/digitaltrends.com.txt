@@ -1,0 +1,73 @@
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent:*
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /?s=
+Disallow: /search
+Disallow: /*?iab_category
+
+Sitemap: https://www.digitaltrends.com/sitemap-all-content-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-all-images-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-deals-sitemap-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-google-news-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-latest-500-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-newly-published-news-index.xml
+Sitemap: https://www.digitaltrends.com/sitemap-wordle-answer-index.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sitemap: https://www.digitaltrends.com/sitemaps/all-content/index.xml

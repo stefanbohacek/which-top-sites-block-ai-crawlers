@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/*
+Disallow: /probe*
+Host: https://www.livescore.com
+Sitemap: https://www.livescore.com/sitemap.xml
+
+User-agent: barkrowler
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /

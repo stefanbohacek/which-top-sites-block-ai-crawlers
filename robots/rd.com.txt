@@ -1,0 +1,11 @@
+# This virtual robots.txt file was created by the Virtual Robots.txt WordPress plugin: https://www.wordpress.org/plugins/pc-robotstxt/
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: ahrefs
+Crawl-delay: 10
+
+Sitemap: https://www.rd.com/sitemap_index.xml
+
+# Explore exciting SEO & Digital Marketing opportunities at https://www.trustedmediabrands.com/careers/

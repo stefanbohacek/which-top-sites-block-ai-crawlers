@@ -1,0 +1,10 @@
+Sitemap: https://www.lance.com.br/sitemap/sitemap-index.xml
+Sitemap: https://www.lance.com.br/sitemap/articles-current.xml
+Sitemap: https://www.lance.com.br/galerias/sitemap.xml
+Sitemap: https://www.lance.com.br/sitemap/news/today.xml
+Sitemap: https://www.lance.com.br/sitemap/homes.xml
+Sitemap: https://www.lance.com.br/melhorpreco/sitemap_index.xml
+Sitemap: https://www.lance.com.br/melhorpreco/page-sitemap.xml
+Sitemap: https://jumperbrasil.lance.com.br/sitemap_index.xml
+User-agent: *
+Allow: /

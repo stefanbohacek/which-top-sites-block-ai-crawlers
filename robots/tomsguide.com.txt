@@ -1,0 +1,41 @@
+##################################################
+# Vanilla-wide rules                             #
+##################################################
+User-agent: *
+
+# Common path patterns (* prefix to handle localisation)
+Disallow: */deals/compare
+Disallow: */html/
+Disallow: */p/*/embed/captioned
+
+# Common query string patterns
+Disallow: *searchTerm=*
+Disallow: *sortBy=*
+Disallow: *productBrand=*
+Disallow: *%7B*%7D*
+
+# Infinite scroll paths
+Disallow: /infinite-scroll-article/*
+Disallow: /infinite-scroll-review/*
+Disallow: /infinite-scroll-recipe/*
+
+##################################################
+# Site-specific rules                            #
+##################################################
+User-Agent: *
+Disallow: /r/
+Disallow: /?*
+Disallow: /us/s/
+Disallow: */primary-style
+Disallow: /video
+Disallow: /videos
+Disallow: /video/*
+Disallow: /videos/*
+
+##################################################
+# Sitemaps                                       #
+##################################################
+User-agent: *
+Sitemap: https://www.tomsguide.com/sitemap.xml
+Sitemap: https://www.tomsguide.com/au/sitemap.xml
+Sitemap: https://www.tomsguide.com/uk/sitemap.xml

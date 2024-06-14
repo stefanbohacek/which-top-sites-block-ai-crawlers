@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /api
+Disallow: /aarp
+Disallow: /en/aarp
+Disallow: /sitecore
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.exxon.com/sitemap.xml

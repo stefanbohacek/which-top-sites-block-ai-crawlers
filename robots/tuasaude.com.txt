@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.tuasaude.com/sitemap.xml
+Sitemap: https://www.tuasaude.com/es/sitemap.xml
+Sitemap: https://www.tuasaude.com/en/sitemap.xml
+Sitemap: https://www.tuasaude.com/fr/sitemap.xml
+Sitemap: https://www.tuasaude.com/find-medic-sitemap.xml

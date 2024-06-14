@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: https://www.mapquest.com/sitemap.xml
+Disallow: /account/*
+Disallow: /search/*
+Disallow: /timeout
+Disallow: /my-maps/*
+Disallow: /*MQAB=*
+Disallow: /*o3ijf=*
+Disallow: /top/*

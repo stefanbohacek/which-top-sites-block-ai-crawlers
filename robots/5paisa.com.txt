@@ -1,0 +1,115 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+Disallow: /user/*
+Disallow: /mutual-funds/fund-screener/?_*
+Disallow: /mox_bengali.css*
+Disallow: /mox_hindi.css*
+Disallow: /mox_marathi.css*
+Disallow: /mox_gujarati.css*
+Disallow: /mox_tamil.css*
+Disallow: /mox_telugu.css*
+Disallow: /mox_kannada.css*
+Disallow: /bengali/bengali*
+Disallow: /bengali/gujarati*
+Disallow: /bengali/hindi*
+Disallow: /bengali/kannada*
+Disallow: /bengali/marathi*
+Disallow: /bengali/telugu*
+Disallow: /bengali/tamil*
+Disallow: /gujarati/bengali*
+Disallow: /gujarati/gujarati*
+Disallow: /gujarati/hindi*
+Disallow: /gujarati/kannada*
+Disallow: /gujarati/marathi*
+Disallow: /gujarati/tamil/*
+Disallow: /gujarati/telugu*
+Disallow: /hindi/bengali*
+Disallow: /hindi/gujarati*
+Disallow: /hindi/hindi*
+Disallow: /hindi/kannada*
+Disallow: /hindi/marathi*
+Disallow: /hindi/tamil*
+Disallow: /hindi/telugu*
+Disallow: /kannada/tamil*
+Disallow: /kannada/telugu*
+Disallow: /kannada/hindi*
+Disallow: /kannada/bengali*
+Disallow: /kannada/kannada*
+Disallow: /kannada/gujarati*
+Disallow: /kannada/marathi*
+Disallow: /marathi/bengali*
+Disallow: /marathi/gujarati*
+Disallow: /marathi/hindi*
+Disallow: /marathi/kannada*
+Disallow: /marathi/marathi*
+Disallow: /marathi/tamil*
+Disallow: /marathi/telugu*
+Disallow: /telugu/marathi*
+Disallow: /telugu/hindi*
+Disallow: /telugu/bengali*
+Disallow: /telugu/kannada*
+Disallow: /telugu/telugu*
+Disallow: /telugu/tamil*
+Disallow: /telugu/gujarati*
+# Add Main Sitemap Paths
+Sitemap: https://www.5paisa.com/index/sitemap.xml
+Sitemap: https://www.5paisa.com/finschool/sitemap_index.xml
+Sitemap: https://www.5paisa.com/mutual-funds/sitemap_index.xml
+Sitemap: https://www.5paisa.com/sitemap-google-news.xml

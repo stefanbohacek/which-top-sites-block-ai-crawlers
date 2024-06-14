@@ -1,0 +1,121 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+# Sitemap archive
+Sitemap: https://www.thesun.co.uk/sitemap.xml
+
+
+Disallow: /*horseracing/racecards/2019*
+Disallow: /*horseracing/racecards/2020*
+Disallow: /*horseracing/racecards/2021*
+Disallow: /*horseracing/racecards/2022*
+Disallow: /*horseracing/results/2019*
+Disallow: /*horseracing/results/2020*
+Disallow: /*horseracing/results/2021*
+Disallow: /*horseracing/results/2022*
+
+Disallow: /search/
+Disallow: /simwidgets/
+Disallow: /*?s=*
+Disallow: *&s=*
+Disallow: /?p=*
+
+
+Disallow: /app/
+
+
+Disallow: /sso/login/
+Disallow: /wp-login.php
+
+
+Disallow: /amp-tealium/
+Disallow: /archives/
+
+
+# News Sitemap
+Sitemap: https://www.thesun.co.uk/news-sitemap.xml
+
+
+# Nav Sitemap
+Sitemap: https://www.thesun.co.uk/nav-sitemap.xml
+
+
+# Author Sitemap
+Sitemap: https://www.thesun.co.uk/author-sitemap.xml
+
+
+User-agent: CCBot
+Disallow: /
+
+
+User-agent: anthropic-ai
+Disallow: /
+
+
+User-agent: cohere-ai
+Disallow: /
+
+
+User-agent: ia_archiver
+Disallow: /
+
+
+User-agent: omgili
+Disallow: /
+
+
+User-agent: omgilibot
+Disallow: /
+
+
+User-agent: MJ12bot
+Disallow: /
+
+
+User-agent: PiplBot
+Disallow: /
+
+
+User-agent: Google-Extended
+Disallow: /
+
+
+User-agent: Meltwater
+Disallow: /
+
+
+User-agent: Claude-Web
+Disallow: /
+
+
+User-agent: Claudebot
+Disallow: /
+
+
+User-agent: Perplexity-ai
+Disallow: /
+
+
+User-agent: Seekr
+Disallow: /
+
+
+User-agent: anthropic-aiBytespider
+Disallow: /
+
+
+User-agent: magpie-crawler
+Disallow: /
+
+
+User-agent: NewsNow
+Disallow: /
+
+
+User-agent: news-please
+Disallow: /
+
+
+User-agent: FacebookBot
+Disallow: /
+

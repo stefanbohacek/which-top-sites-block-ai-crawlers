@@ -1,0 +1,46 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yahoo! Slurp
+Allow: /
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/uploads/
+Disallow: *.pdf
+Disallow: /tag/
+Disallow: /category/
+
+Sitemap: https://www.sarkariresult.app/sitemap_index.xml
+Sitemap: https://www.sarkariresult.app/news-sitemap.xml

@@ -1,0 +1,12 @@
+# Tempest - parade
+
+User-agent: *
+Disallow: /.preview/
+Disallow: /.context-results
+Disallow: /.applenews/
+Disallow: /.rss
+Disallow: /*/gdprStatus
+
+
+
+Sitemap: https://parade.com/sitemaps.xml

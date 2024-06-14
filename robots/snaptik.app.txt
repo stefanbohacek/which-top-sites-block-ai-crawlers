@@ -1,0 +1,18 @@
+user-agent: *
+disallow: /admin/
+disallow: /tiktok-online/
+disallow: /pre_download.php
+
+disallow: /member/
+
+disallow: /member
+
+user-agent: magicsearchbot
+disallow: /admin/
+disallow: /tiktok-online/
+
+disallow: /member/
+
+disallow: /member
+
+disallow: /pre_download.php

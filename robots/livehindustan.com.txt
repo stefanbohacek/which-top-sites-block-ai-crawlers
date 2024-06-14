@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /news-sitemap.xml
+Disallow: /admin/
+Disallow: /var/www/html/ht/home/search
+Disallow: /home/archive.php
+Disallow: /errorfound/error.php
+Disallow: /blocked.html
+Disallow: /jmobile/*
+Disallow: /mobile/*
+Disallow: /rashi/*
+Disallow: /home/homepage.php
+Disallow: /home
+Disallow: /noad*
+Disallow: /home1
+Disallow: /adtype1*
+Disallow: /edu/pdf*
+Disallow: /tags/*/false
+Disallow: /tags/*/false/
+Disallow: /news-*
+Disallow: /*{{url}}*
+Disallow: /*{{image}}*
+Disallow: /tags/asifa*
+Disallow: /live-blog/reliance-agm-2019-live-updates-jio-phone-3-giga-fiber-giga-tv-to-launch-today-2685602.amp.html
+Disallow: /tags/*/tags/
+Disallow: /cricket/cricket-player/
+Disallow: /biharelection/*
+Disallow: /edu/*
+Disallow: /event/selfie/*
+Disallow: /news-brief/*
+Disallow: /podcasts
+
+User-agent: Googlebot-News
+Disallow: /brand-post/news*
+Disallow: /tags/*/tags/
+Disallow: /biharelection/*
+Disallow: /edu/*
+Disallow: /event/selfie/*
+Disallow: /news-brief/*
+Disallow: /podcasts
+
+Sitemap: https://www.livehindustan.com/news-sitemap.xml
+Sitemap: https://www.livehindustan.com/category-sitemap.xml
+Sitemap: https://www.livehindustan.com/sitemap-index.xml
+

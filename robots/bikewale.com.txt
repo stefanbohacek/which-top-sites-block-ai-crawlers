@@ -1,0 +1,36 @@
+User-agent: *
+
+Disallow: /Login/
+Disallow: /Login/Index/
+Disallow: /Login/SignupUser/
+Disallow: /Login/LoginUser/
+
+Disallow: /mybikewale/
+Disallow: /mybikewale/*
+Disallow: /pricequote/default.aspx?*
+Disallow: /7590/
+Disallow: /7590/*
+Disallow: /finance/financeinquiries.aspx
+Disallow: /finance/financeinquiries.aspx?*
+Disallow: /1017752/
+Disallow: /1017752/*
+
+Disallow: /pricequote/dealerpricequote.aspx
+Disallow: /pricequote/dealerpricequote.aspx?*
+Disallow: /pricequote/dealer/?MPQ=*
+Disallow: /m/pricequote/dealer/?MPQ=*
+Disallow: /pagenotfound.aspx
+Disallow: /m/pagenotfound.aspx
+Disallow: /customerror.aspx
+Disallow: /m/customerror.aspx
+Disallow: /api/*
+Disallow: /lead-landing/*
+Disallow: /m/lead-landing/*
+
+sitemap: https://www.bikewale.com/sitemaps/general/sitemap.xml
+sitemap: https://www.bikewale.com/sitemaps/used/usedbikes.xml
+sitemap: https://www.bikewale.com/sitemaps/dealerlocator/dealer-locator-showrooms-1.xml
+sitemap: https://www.bikewale.com/sitemaps/servicecenter/service-center-locator-1.xml
+sitemap: https://www.bikewale.com/sitemaps/bw-index.xml
+sitemap: https://www.bikewale.com/news/sitemap/
+sitemap: https://www.bikewale.com/sitemaps/bw-qna-index.xml

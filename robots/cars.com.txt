@@ -1,0 +1,89 @@
+User-agent: *
+
+Allow: /ads.txt
+
+Disallow: /windshield/
+Disallow: /ajax/coreshoppingsupportapi/1.0/listing/vhr/* # CarFax
+Disallow: /ajax/listingsapi/1.0/saved-vehicles/* #Missing Registration cookie
+Disallow: /document-generator/ # Service Coupons - no longer offered
+Allow: /profile/your-garage/
+Disallow: /profile/ # User profiles
+
+
+Disallow: /dv/
+Disallow: /rv/
+
+Disallow: /react-shop-webapp/
+
+Disallow: /go/advice/advice_carprices.jhtml
+Disallow: /go/buy-cars/*
+Disallow: /go/car-dealers/kcj/*
+Disallow: /go/dealersearch/logDealerLead*
+Disallow: /go/search/newBuyIndex.jsp*
+Disallow: /go/search/dealerWebsite.jsp*
+Disallow: /go/video/motorweek/videoPopup.jsp*
+
+Disallow: /new-cars/*/
+Disallow: /new-cars/*/*/
+
+Disallow: /reviews/*/
+
+Disallow: /shopping/all/*
+Disallow: /shopping/certified-preowned/
+Disallow: /shopping/results/
+Disallow: *ni=1*
+Disallow: *ni=2*
+Disallow: *ni=3*
+
+Disallow: */vehiclehistory/
+
+Disallow: /signin/?redirect_path
+Disallow: /signup/?redirect_path
+
+Disallow: */special_offers/
+
+Allow: /sell/how-to/
+Allow: /sell/instant-offer/
+Disallow: /sell/*/
+Disallow: /sell-new/
+
+Disallow: /signin/apple_go/
+Disallow: /signin/google_go/
+Disallow: /signin/fb_go/
+
+Disallow: /vehicle/
+Disallow: /vehicledetail/
+
+#Individual Review Crawl Control
+Disallow: /dealers/*/reviews/*/
+Disallow: /research/*/consumer-reviews/*/
+Disallow: */write-review/
+Disallow: */write-a-review/
+Disallow: */?reviewTags*
+Disallow: */dealer_reviews/write-a-review/
+
+Disallow: /dealers/*/claim/
+
+Disallow: *award_link*
+Disallow: *sort_by*
+Disallow: *page_size*
+Disallow: *ev_report_url*
+
+# DR
+Disallow: */employees/
+
+Disallow: *href_to_vdp*
+
+Sitemap: https://www.cars.com/secure/sitemap/s_sitemap_index.xml
+Sitemap: https://www.cars.com/news/sitemap/index.xml
+Sitemap: https://www.cars.com/research/sitemap/research_index.xml
+
+User-agent: grapeshot
+Disallow:
+
+User-agent: PowerMapper
+Allow: /
+
+User-agent: TTD-Content
+Allow: /
+
