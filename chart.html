@@ -1,10 +1,15 @@
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
 
-<div id="chart" class="mt-5"
+<div id="chart"
+  class="mt-5"
   style="width: 900px; height: 600px;">
 </div>
 
 <script>
+  const lowercaseFirstLetter = (string) => {
+    return string.charAt(0).toLowerCase() + string.slice(1);
+  }
+
   const ready = (fn) => {
     if (document.readyState !== "loading") {
       fn();
@@ -14,6 +19,18 @@
   };
 
   ready(async () => {
+    const data = [
+      {
+        data: [9, 227, 605],
+        type: 'bar',
+        stack: 'x'
+      },
+      {
+        data: [726, 508, 130],
+        type: 'bar',
+        stack: 'x'
+      }
+    ];
     const chartDom = document.getElementById("chart");
     chartDom.style.width = `${Math.min(window.innerWidth / 2, 960)}px`;
     const myChart = echarts.init(chartDom, null, { renderer: "svg" });
@@ -35,19 +52,15 @@
         label: {
           description: "A bar chart that consists of three columns, representing the results of the analysis described in the following paragraph."
         }
-      },      
-      series: [
-        {
-          data: [9, 227, 605],
-          type: 'bar',
-          stack: 'x'
-        },
-        {
-          data: [726, 508, 130],
-          type: 'bar',
-          stack: 'x'
+      },
+      tooltip: {
+        formatter: (obj) => {
+          const total = data[0].data[0] + data[1].data[0];
+          const value = obj.seriesIndex === 0 ? obj.value : total - obj.value;
+          return `${value} out of ${total} top visited sites ${lowercaseFirstLetter(obj.name)}`;
         }
-      ],
+      },
+      series: data,
       color: [
         '#73b9bc',
         'silver'
